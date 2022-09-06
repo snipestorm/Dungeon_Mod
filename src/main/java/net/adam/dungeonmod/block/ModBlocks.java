@@ -36,6 +36,7 @@ public class ModBlocks {
 
 
 
+
     private static Block registerBlock(String name, Block block, ItemGroup tab) {
         registerBlockItem(name, block, tab);
         return Registry.register(Registry.BLOCK, new Identifier(DungeonMod.MOD_ID, name), block);

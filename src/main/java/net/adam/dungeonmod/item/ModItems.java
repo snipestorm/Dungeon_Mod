@@ -35,6 +35,9 @@ public class ModItems {
     public static final Item ANCIENT_NETHERITE_INGOT = registerItem("ancient_netherite_ingot",
             new Item(new FabricItemSettings().group(ModItemGroup.DUNGEON)));
 
+    public static final Item CRYSTAL_INGOT = registerItem("crystal_ingot",
+            new Item(new FabricItemSettings().group(ModItemGroup.DUNGEON)));
+
     //*Tools*//
     public static final Item ANCIENT_NETHERITE_PICKAXE = registerItem("ancient_netherite_pickaxe",
             new ModPickaxeItem(ModToolMaterials.ANCIENT_NETHERITE, 1,-2.8f,
@@ -75,19 +78,19 @@ public class ModItems {
 
     public static final Item ANCIENT_DESCENT_BOOTS = registerItem("ancient_descent_boots",
             new ArmorItem(ModArmorMaterials.ANCIENT_DESCENT, EquipmentSlot.FEET,
-                    new FabricItemSettings().rarity(Rarity.EPIC).group(ModItemGroup.DUNGEON)));
+                    new FabricItemSettings().group(ModItemGroup.DUNGEON)));
 
     public static final Item ANCIENT_DESCENT_LEGGINGS = registerItem("ancient_descent_leggings",
             new ArmorItem(ModArmorMaterials.ANCIENT_DESCENT, EquipmentSlot.LEGS,
-                    new FabricItemSettings().rarity(Rarity.EPIC).group(ModItemGroup.DUNGEON)));
+                    new FabricItemSettings().group(ModItemGroup.DUNGEON)));
 
     public static final Item ANCIENT_DESCENT_CHESTPLATE = registerItem("ancient_descent_chestplate",
             new ArmorItem(ModArmorMaterials.ANCIENT_DESCENT, EquipmentSlot.CHEST,
-                    new FabricItemSettings().rarity(Rarity.EPIC).group(ModItemGroup.DUNGEON)));
+                    new FabricItemSettings().group(ModItemGroup.DUNGEON)));
 
     public static final Item ANCIENT_DESCENT_HELMET = registerItem("ancient_descent_helmet",
             new ArmorItem(ModArmorMaterials.ANCIENT_DESCENT, EquipmentSlot.HEAD,
-                    new FabricItemSettings().rarity(Rarity.EPIC).group(ModItemGroup.DUNGEON)));
+                    new FabricItemSettings().group(ModItemGroup.DUNGEON)));
 
     //*Artifacts*//
 
@@ -269,6 +272,8 @@ public class ModItems {
 
     public static final Item DIMENSIONALIST = registerItem("dimensionalist",
             new DimensionalistItem(new FabricItemSettings().group(ModItemGroup.DUNGEON_CARDS)));
+
+
 
 
 //*Call*//
