@@ -1,7 +1,7 @@
 {
   "type": "minecraft:smithing",
   "addition": {
-    "item": "dungeonmod:ancient_tome"
+    "item": "dungeonmod:crystal_ingot"
   },
   "base": {
     "item": "minecraft:diamond_chestplate"
