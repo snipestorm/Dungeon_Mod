@@ -1,0 +1,18 @@
+{
+  "type": "dungeonmod:artifact_transmuting",
+  "ingredients": [
+    {
+      "item": "dungeonmod:mythical_fire_stone"
+    }
+  ],
+
+  "output": {
+    "item": "dungeonmod:skill",
+    "count": 5
+  },
+
+  "output2": {
+    "item": null,
+    "count": null
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "dungeonmod:artifact_transmuting",
+  "ingredients": [
+    {
+      "item": "dungeonmod:mythical_wardens_axe"
+    }
+  ],
+
+  "output": {
+    "item": "dungeonmod:sculk_walker_3",
+    "count": 1
+  },
+
+  "output2": {
+    "item": "dungeonmod:ancient_tome",
+    "count": 3
+  }
+}

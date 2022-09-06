@@ -1,0 +1,18 @@
+{
+  "type": "dungeonmod:artifact_transmuting",
+  "ingredients": [
+    {
+      "item": "dungeonmod:mythical_water_stone"
+    }
+  ],
+
+  "output": {
+    "item": "dungeonmod:dungeon_crystal",
+    "count": 5
+  },
+
+  "output2": {
+    "item": "dungeonmod:dungeon_coin",
+    "count": 5
+  }
+}

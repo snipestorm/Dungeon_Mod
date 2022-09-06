@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+    ],
+  "key": {
+    "#": {
+      "item": "dungeonmod:ancient_netherite_ingot"
+    }
+  },
+  "result": {
+    "item": "dungeonmod:ancient_netherite_block"
+  }
+}

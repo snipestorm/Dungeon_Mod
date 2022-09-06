@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_fire_floor",
+  "textures": {
+    "fire": "dungeonmod:block/ritual_fire_1"
+  }
+}

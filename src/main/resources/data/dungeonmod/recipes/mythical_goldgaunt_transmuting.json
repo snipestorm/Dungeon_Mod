@@ -1,0 +1,18 @@
+{
+  "type": "dungeonmod:artifact_transmuting",
+  "ingredients": [
+    {
+      "item": "dungeonmod:mythical_golden_gauntlet"
+    }
+  ],
+
+  "output": {
+    "item": "dungeonmod:loot_finder_3",
+    "count": 1
+  },
+
+  "output2": {
+    "item": "dungeonmod:dungeon_coin",
+    "count": 25
+  }
+}

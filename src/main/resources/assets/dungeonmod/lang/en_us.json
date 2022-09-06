@@ -1,0 +1,125 @@
+{
+  "item.dungeonmod.dungeon_crystal": "☠ Dungeon Crystal ☠",
+  "item.dungeonmod.dungeon_coin": "☠ Dungeon Coin ☠",
+  "item.dungeonmod.ancient_tome": "☠ Ancient Tome ☠",
+  "item.dungeonmod.skill": "☠ Skill ☠",
+  "item.dungeonmod.crystal": "Crystal",
+  "item.dungeonmod.loot_box_key": "☠ Loot Box Key ☠",
+  "item.dungeonmod.legendary_loot_box_key": "☠ Legendary Loot Box Key ☠",
+  "item.dungeonmod.mythical_loot_box_key": "☠ Mythical Loot Box Key ☠",
+
+
+  "item.dungeonmod.mythical_fire_stone": "☠ Mythical Artifact: Fire Stone ☠",
+  "item.dungeonmod.mythical_water_stone": "☠ Mythical Artifact: Water Stone ☠",
+  "item.dungeonmod.mythical_earth_stone": "☠ Mythical Artifact: Earth Stone ☠",
+  "item.dungeonmod.mythical_wardens_axe": "☠ Mythical Artifact: Wardens Axe ☠",
+  "item.dungeonmod.mythical_golden_gauntlet": "☠ Mythical Artifact: Gauntlet Of Gold ☠",
+  "item.dungeonmod.mythical_staff_coins": "☠ Mythical Artifact: Staff Of Coins ☠",
+  "item.dungeonmod.mythical_staff_skill": "☠ Mythical Artifact: Staff Of Skill ☠",
+  "item.dungeonmod.mythical_staff_ancients": "☠ Mythical Artifact: Staff Of Ancients ☠",
+
+
+  "item.dungeonmod.common_pickaxe": "☠ Common Artifact: Basic Pickaxe ☠",
+  "item.dungeonmod.rare_pickaxe": "☠ Rare Artifact: Strong Pickaxe ☠",
+  "item.dungeonmod.legendary_pickaxe": "☠ Legendary Artifact: Elite Pickaxe ☠",
+  "item.dungeonmod.exotic_pickaxe": "☠ Exotic Artifact: Exquisite Pickaxe ☠",
+
+  "item.dungeonmod.common_dragon_egg": "☠ Common Artifact: Dragon Egg ☠",
+  "item.dungeonmod.rare_dragon_egg": "☠ Rare Artifact: Tidal Dragon Egg ☠",
+  "item.dungeonmod.legendary_dragon_egg": "☠ Legendary Artifact: Glacial Dragon Egg ☠",
+  "item.dungeonmod.exotic_dragon_egg": "☠ Exotic Artifact: Volcanic Dragon Egg ☠",
+
+  "item.dungeonmod.common_demon": "☠ Common Artifact: Demons Horn ☠",
+  "item.dungeonmod.rare_demon": "☠ Rare Artifact: Demons Scroll Of Torment ☠",
+  "item.dungeonmod.legendary_demon": "☠ Legendary Artifact: Demons Forbidden Tome ☠",
+  "item.dungeonmod.exotic_demon": "☠ Exotic Artifact: Demons Heart ☠",
+
+  "item.dungeonmod.common_warden": "☠ Common Artifact: Wardens Knowledge ☠",
+  "item.dungeonmod.rare_warden": "☠ Rare Artifact: Wardens Soul Ripper ☠",
+  "item.dungeonmod.legendary_warden": "☠ Legendary Artifact: Wardens Depth Illuminator ☠",
+  "item.dungeonmod.exotic_warden": "☠ Exotic Artifact: Wardens Heart ☠",
+
+  "item.dungeonmod.common_magic": "☠ Common Artifact: Magical Tome Of Knowledge ☠",
+  "item.dungeonmod.rare_magic": "☠ Rare Artifact: Beginners Wand ☠",
+  "item.dungeonmod.legendary_magic": "☠ Legendary Artifact: Magicians Wand ☠",
+  "item.dungeonmod.exotic_magic": "☠ Exotic Artifact: Archmages Wand ☠",
+
+  "item.dungeonmod.stealth_1": "☠ Stealth I ☠",
+  "item.dungeonmod.stealth_2": "☠ Stealth II ☠",
+  "item.dungeonmod.stealth_3": "☠ Stealth III ☠",
+  "item.dungeonmod.stealth_4": "☠ Stealth IV ☠",
+
+  "item.dungeonmod.resistance_1": "☠ Resistance I ☠",
+  "item.dungeonmod.resistance_2": "☠ Resistance II ☠",
+  "item.dungeonmod.resistance_3": "☠ Resistance III ☠",
+  "item.dungeonmod.resistance_4": "☠ Resistance IV ☠",
+
+  "item.dungeonmod.speed_1": "☠ Speed I ☠",
+  "item.dungeonmod.speed_2": "☠ Speed II ☠",
+  "item.dungeonmod.speed_3": "☠ Speed III ☠",
+  "item.dungeonmod.speed_4": "☠ Speed IV ☠",
+
+  "item.dungeonmod.loot_finder_1": "☠ Loot Finder I ☠",
+  "item.dungeonmod.loot_finder_2": "☠ Loot Finder II ☠",
+  "item.dungeonmod.loot_finder_3": "☠ Loot Finder III ☠",
+  "item.dungeonmod.loot_finder_4": "☠ Loot Finder IV ☠",
+
+  "item.dungeonmod.soul_seeker_1": "☠ Soul Seeker I ☠",
+  "item.dungeonmod.soul_seeker_2": "☠ Soul Seeker II ☠",
+  "item.dungeonmod.soul_seeker_3": "☠ Soul Seeker III ☠",
+  "item.dungeonmod.soul_seeker_4": "☠ Soul Seeker IV ☠",
+
+  "item.dungeonmod.beast_sense_1": "☠ Beast Sense I ☠",
+  "item.dungeonmod.beast_sense_2": "☠ Beast Sense II ☠",
+  "item.dungeonmod.beast_sense_3": "☠ Beast Sense III ☠",
+  "item.dungeonmod.beast_sense_4": "☠ Beast Sense IV ☠",
+
+  "item.dungeonmod.equilibrium_1": "☠ Equilibrium I ☠",
+  "item.dungeonmod.equilibrium_2": "☠ Equilibrium II ☠",
+  "item.dungeonmod.equilibrium_3": "☠ Equilibrium III ☠",
+  "item.dungeonmod.equilibrium_4": "☠ Equilibrium IV ☠",
+
+  "item.dungeonmod.skiller_1": "☠ Skiller I ☠",
+  "item.dungeonmod.skiller_2": "☠ Skiller II ☠",
+  "item.dungeonmod.skiller_3": "☠ Skiller III ☠",
+  "item.dungeonmod.skiller_4": "☠ Skiller IV ☠",
+
+  "item.dungeonmod.sculk_walker_1": "☠ Sculk Walker I ☠",
+  "item.dungeonmod.sculk_walker_2": "☠ Sculk Walker II ☠",
+  "item.dungeonmod.sculk_walker_3": "☠ Sculk Walker III ☠",
+  "item.dungeonmod.sculk_walker_4": "☠ Sculk Walker IV ☠",
+
+  "item.dungeonmod.dimensionalist": "☠ Dimensionalist V ☠",
+
+  "item.dungeonmod.ancient_netherite_ingot": "Ancient Netherite Ingot",
+  "block.dungeonmod.ancient_netherite_block": "Ancient Netherite Block",
+
+  "item.dungeonmod.ancient_netherite_pickaxe": "Ancient Netherite Pickaxe",
+  "item.dungeonmod.ancient_netherite_axe": "Ancient Netherite Axe",
+  "item.dungeonmod.ancient_netherite_shovel": "Ancient Netherite Shovel",
+  "item.dungeonmod.ancient_netherite_sword": "Ancient Netherite Sword",
+  "item.dungeonmod.ancient_netherite_hoe": "Ancient Netherite Hoe",
+
+  "item.dungeonmod.dungeon_champions_helmet": "☠ Dungeon Champions Helmet ☠",
+  "item.dungeonmod.dungeon_champions_chestplate": "☠ Dungeon Champions Chestplate ☠",
+  "item.dungeonmod.dungeon_champions_leggings": "☠ Dungeon Champions Leggings ☠",
+  "item.dungeonmod.dungeon_champions_boots": "☠ Dungeon Champions Boots ☠",
+
+  "item.dungeonmod.ancient_descent_helmet": "Ancient Descent Helmet",
+  "item.dungeonmod.ancient_descent_chestplate": "Ancient Descent Chestplate",
+  "item.dungeonmod.ancient_descent_leggings": "Ancient Descent Leggings",
+  "item.dungeonmod.ancient_descent_boots": "Ancient Descent Boots",
+
+
+  "block.dungeonmod.crystal_block": "Crystal Block",
+  "block.dungeonmod.crystal_ore": "Crystal Ore",
+  "block.dungeonmod.deepslate_crystal_ore": "Deepslate Crystal Ore",
+  "block.dungeonmod.ritual_fire": "Ritual Fire",
+  "block.dungeonmod.artifact_transmuter": "☠ Artifact Transmuter ☠",
+
+  "enchantment.dungeonmod.dungeon_champion_season": "Dungeon Champion Season",
+
+  "itemGroup.dungeonmod.dungeon": "☠ Dungeon ☠",
+  "itemGroup.dungeonmod.dungeon_cards": "☠ Dungeon Cards ☠",
+  "itemGroup.dungeonmod.dungeon_artifacts": "☠ Dungeon Artifacts ☠"
+}

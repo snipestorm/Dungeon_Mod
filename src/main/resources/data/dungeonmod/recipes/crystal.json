@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "dungeonmod:crystal_block"
+    }
+    ],
+  "result": {
+    "item": "dungeonmod:crystal",
+    "count": 9
+  }
+}

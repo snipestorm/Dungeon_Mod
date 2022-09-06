@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "dungeonmod:item/ancient_netherite_shovel"
+  }
+}

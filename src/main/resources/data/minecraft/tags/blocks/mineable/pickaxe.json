@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "dungeonmod:crystal_ore",
+    "dungeonmod:deepslate_crystal_ore",
+    "dungeonmod:crystal_block",
+    "dungeonmod:ancient_netherite_block"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "type": "dungeonmod:artifact_transmuting",
+  "ingredients": [
+    {
+      "item": "dungeonmod:mythical_staff_coins"
+    }
+  ],
+
+  "output": {
+    "item": "dungeonmod:dungeon_coin",
+    "count": 30
+  },
+
+  "output2": {
+    "item": "dungeonmod:dungeon_crystal",
+    "count": 1
+  }
+}
