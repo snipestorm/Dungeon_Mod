@@ -187,6 +187,21 @@ public class ModItems {
     public static final Item EXOTIC_MAGIC = registerItem("exotic_magic",
             new MagicArtifact(new FabricItemSettings().rarity(Rarity.UNCOMMON).group(ModItemGroup.DUNGEON_ARTIFACTS)));
 
+    //**Astral Set**//
+
+    public static final Item COMMON_ASTRAL = registerItem("common_astral",
+            new AstralArtifact(new FabricItemSettings().rarity(Rarity.COMMON).group(ModItemGroup.DUNGEON_ARTIFACTS)));
+
+    public static final Item RARE_ASTRAL = registerItem("rare_astral",
+            new AstralArtifact(new FabricItemSettings().rarity(Rarity.RARE).group(ModItemGroup.DUNGEON_ARTIFACTS)));
+
+    public static final Item LEGENDARY_ASTRAL = registerItem("legendary_astral",
+            new AstralArtifact(new FabricItemSettings().rarity(Rarity.EPIC).group(ModItemGroup.DUNGEON_ARTIFACTS)));
+
+    public static final Item EXOTIC_ASTRAL = registerItem("exotic_astral",
+            new AstralArtifact(new FabricItemSettings().rarity(Rarity.UNCOMMON).group(ModItemGroup.DUNGEON_ARTIFACTS)));
+
+
     //**Cards**//
 
     public static final Item STEALTH_1 = registerItem("stealth_1",

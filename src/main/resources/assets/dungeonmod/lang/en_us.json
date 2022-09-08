@@ -8,13 +8,14 @@
   "item.dungeonmod.loot_box_key": "☠ Loot Box Key ☠",
   "item.dungeonmod.legendary_loot_box_key": "☠ Legendary Loot Box Key ☠",
   "item.dungeonmod.mythical_loot_box_key": "☠ Mythical Loot Box Key ☠",
+  "item.dungeonmod.soul_lava_bucket": "Soul Lava Bucket",
 
 
   "item.dungeonmod.mythical_fire_stone": "☠ Mythical Artifact: Fire Stone ☠",
   "item.dungeonmod.mythical_water_stone": "☠ Mythical Artifact: Water Stone ☠",
   "item.dungeonmod.mythical_earth_stone": "☠ Mythical Artifact: Earth Stone ☠",
   "item.dungeonmod.mythical_wardens_axe": "☠ Mythical Artifact: Wardens Axe ☠",
-  "item.dungeonmod.mythical_golden_gauntlet": "☠ Mythical Artifact: Gauntlet Of Gold ☠",
+  "item.dungeonmod.mythical_golden_gauntlet": "§6☠ Mythical Artifact: Gauntlet Of Gold ☠",
   "item.dungeonmod.mythical_staff_coins": "☠ Mythical Artifact: Staff Of Coins ☠",
   "item.dungeonmod.mythical_staff_skill": "☠ Mythical Artifact: Staff Of Skill ☠",
   "item.dungeonmod.mythical_staff_ancients": "☠ Mythical Artifact: Staff Of Ancients ☠",
@@ -44,6 +45,11 @@
   "item.dungeonmod.rare_magic": "☠ Rare Artifact: Beginners Wand ☠",
   "item.dungeonmod.legendary_magic": "☠ Legendary Artifact: Magicians Wand ☠",
   "item.dungeonmod.exotic_magic": "☠ Exotic Artifact: Archmages Wand ☠",
+
+  "item.dungeonmod.common_astral": "☠ Common Artifact: Atherium Star ☠",
+  "item.dungeonmod.rare_astral": "☠ Rare Artifact: Aether Star ☠",
+  "item.dungeonmod.legendary_astral": "☠ Legendary Artifact: Ethereal Supernova ☠",
+  "item.dungeonmod.exotic_astral": "☠ Exotic Artifact: Transcendent Hypernova ☠",
 
   "item.dungeonmod.stealth_1": "☠ Stealth I ☠",
   "item.dungeonmod.stealth_2": "☠ Stealth II ☠",
