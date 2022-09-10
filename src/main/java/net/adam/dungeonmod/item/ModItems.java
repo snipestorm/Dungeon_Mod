@@ -14,10 +14,12 @@ public class ModItems {
     //**Items**//
     public static final Item DUNGEON_CRYSTAL = registerItem("dungeon_crystal",
             new Item(new FabricItemSettings().group(ModItemGroup.DUNGEON)));
+
     public static final Item CRYSTAL = registerItem("crystal",
             new Item(new FabricItemSettings().group(ModItemGroup.DUNGEON)));
     public static final Item ANCIENT_TOME = registerItem("ancient_tome",
             new Item(new FabricItemSettings().group(ModItemGroup.DUNGEON)));
+
     public static final Item SKILL = registerItem("skill",
             new Item(new FabricItemSettings().group(ModItemGroup.DUNGEON)));
     public static final Item DUNGEON_COIN = registerItem("dungeon_coin",
@@ -31,12 +33,12 @@ public class ModItems {
 
     public static final Item MYTHICAL_LOOT_BOX_KEY = registerItem("mythical_loot_box_key",
             new Item(new FabricItemSettings().group(ModItemGroup.DUNGEON)));
-
     public static final Item ANCIENT_NETHERITE_INGOT = registerItem("ancient_netherite_ingot",
             new Item(new FabricItemSettings().group(ModItemGroup.DUNGEON)));
 
     public static final Item CRYSTAL_INGOT = registerItem("crystal_ingot",
             new Item(new FabricItemSettings().group(ModItemGroup.DUNGEON)));
+
 
     //*Tools*//
     public static final Item ANCIENT_NETHERITE_PICKAXE = registerItem("ancient_netherite_pickaxe",
@@ -56,7 +58,7 @@ public class ModItems {
             new ModHoeItem(ModToolMaterials.ANCIENT_NETHERITE, -5,1f,
                     new FabricItemSettings().group(ModItemGroup.DUNGEON)));
 
-//*Armour*//
+//*Armor*//
 
     public static final Item ANCIENT_NETHERITE_HELMET = registerItem("dungeon_champions_helmet",
             new ArmorItem(ModArmorMaterials.ANCIENT_NETHERITE, EquipmentSlot.HEAD,
@@ -217,6 +219,20 @@ public class ModItems {
 
     public static final Item EXOTIC_ASTRAL = registerItem("exotic_astral",
             new AstralArtifact(new FabricItemSettings().rarity(Rarity.UNCOMMON).group(ModItemGroup.DUNGEON_ARTIFACTS)));
+
+    //**Void Set**//
+
+    public static final Item COMMON_VOID = registerItem("common_void",
+            new VoidArtifact(new FabricItemSettings().rarity(Rarity.COMMON).group(ModItemGroup.DUNGEON_ARTIFACTS)));
+
+    public static final Item RARE_VOID = registerItem("rare_void",
+            new VoidArtifact(new FabricItemSettings().rarity(Rarity.RARE).group(ModItemGroup.DUNGEON_ARTIFACTS)));
+
+    public static final Item LEGENDARY_VOID = registerItem("legendary_void",
+            new VoidArtifact(new FabricItemSettings().rarity(Rarity.EPIC).group(ModItemGroup.DUNGEON_ARTIFACTS)));
+
+    public static final Item EXOTIC_VOID = registerItem("exotic_void",
+            new VoidArtifact(new FabricItemSettings().rarity(Rarity.UNCOMMON).group(ModItemGroup.DUNGEON_ARTIFACTS)));
 
 
     //**Cards**//

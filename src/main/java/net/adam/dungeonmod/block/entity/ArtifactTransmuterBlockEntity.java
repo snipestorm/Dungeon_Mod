@@ -1,5 +1,6 @@
 package net.adam.dungeonmod.block.entity;
 
+
 import net.adam.dungeonmod.recipe.ArtifactTransmuterRecipe;
 import net.adam.dungeonmod.screen.ArtifactTransmuterScreenHandler;
 import net.minecraft.block.BlockState;
@@ -75,7 +76,7 @@ public class ArtifactTransmuterBlockEntity extends BlockEntity implements NamedS
 
     @Override
     public Text getDisplayName() {
-        return Text.literal("☠ Artifact Transmuter ☠") ;
+        return Text.literal("☠ Artifact Transmuter ☠");
     }
 
     @Nullable
@@ -130,11 +131,11 @@ public class ArtifactTransmuterBlockEntity extends BlockEntity implements NamedS
         Optional<ArtifactTransmuterRecipe> recipe = entity.getWorld().getRecipeManager()
                 .getFirstMatch(ArtifactTransmuterRecipe.Type.INSTANCE, inventory, entity.getWorld());
 
-        if(hasRecipe(entity)) {
+        if (hasRecipe(entity)) {
             entity.removeStack(0, 1);
 
             entity.setStack(1, new ItemStack(recipe.get().getOutput().getItem(),
-                    entity.getStack(1).getCount()+ recipe.get().getOutput().getCount()));
+                    entity.getStack(1).getCount() + recipe.get().getOutput().getCount()));
 
             entity.setStack(2, new ItemStack(recipe.get().getOutput2().getItem(),
                     entity.getStack(2).getCount() + recipe.get().getOutput2().getCount()));
@@ -152,7 +153,7 @@ public class ArtifactTransmuterBlockEntity extends BlockEntity implements NamedS
         Optional<ArtifactTransmuterRecipe> match = entity.getWorld().getRecipeManager()
                 .getFirstMatch(ArtifactTransmuterRecipe.Type.INSTANCE, inventory, entity.getWorld());
 
-        return match.isPresent() && canInsertAmountIntoOutputSlot (inventory) && canInsertAmountIntoOutputSlot2 (inventory)
+        return match.isPresent() && canInsertAmountIntoOutputSlot(inventory) && canInsertAmountIntoOutputSlot2(inventory)
                 && canInsertItemIntoOutputSlot(inventory, match.get().getOutput().getItem())
                 && canInsertItemIntoOutputSlot2(inventory, match.get().getOutput2().getItem());
 
@@ -176,7 +177,6 @@ public class ArtifactTransmuterBlockEntity extends BlockEntity implements NamedS
     }
 
 
+
 }
-
-
 

@@ -11,9 +11,9 @@ import org.jetbrains.annotations.Nullable;
 
 import java.util.List;
 
-public class TechnoArtifact extends Item {
+public class VoidArtifact extends Item {
 
-    public TechnoArtifact(Settings settings) {
+    public VoidArtifact(Settings settings) {
         super(settings);
     }
 
@@ -23,11 +23,12 @@ public class TechnoArtifact extends Item {
     @Override
     public void appendTooltip(ItemStack stack, @Nullable World world, List<Text> tooltip, TooltipContext context) {
         if (Screen.hasShiftDown()) {
-            tooltip.add(Text.literal("Keep Me Or Transmute Me").formatted(Formatting.GOLD));
-            tooltip.add(Text.literal("In The Artifact Transmuter").formatted(Formatting.GOLD));
-            tooltip.add(Text.literal("RIP Technoblade <3").formatted(Formatting.AQUA));
+            tooltip.add(Text.literal("Add Me To Your Board,").formatted(Formatting.GOLD));
+            tooltip.add(Text.literal("Trade Me Back").formatted(Formatting.GOLD));
+            tooltip.add(Text.literal("To The Dungeon,").formatted(Formatting.GOLD));
+            tooltip.add(Text.literal("Or Transmute Me...").formatted(Formatting.GOLD));
             super.appendTooltip(stack, world, tooltip, context);
-        } else tooltip.add(Text.literal("A Mythical Artifact,").formatted(Formatting.AQUA));
+        } else tooltip.add(Text.literal("Part Of The Void Set,").formatted(Formatting.AQUA));
         tooltip.add(Text.literal("Press Shift For More Info.").formatted(Formatting.AQUA));
         super.appendTooltip(stack, world, tooltip, context);
     }
