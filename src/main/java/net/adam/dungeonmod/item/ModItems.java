@@ -118,6 +118,9 @@ public class ModItems {
     public static final Item MYTHICAL_ARTIFACT_STAFF_ANCIENTS = registerItem("mythical_staff_ancients",
             new MythicalArtifact(new FabricItemSettings().group(ModItemGroup.DUNGEON_ARTIFACTS)));
 
+    public static final Item MYTHICAL_ARTIFACT_TECHNOBLADES_AMULET = registerItem("mythical_technoblades_amulet",
+            new TechnoArtifact(new FabricItemSettings().group(ModItemGroup.DUNGEON_ARTIFACTS)));
+
 //**Pickaxe Set**//
     public static final Item COMMON_PICKAXE = registerItem("common_pickaxe",
             new PickaxeArtifact(new FabricItemSettings().rarity(Rarity.COMMON).group(ModItemGroup.DUNGEON_ARTIFACTS)));
@@ -130,6 +133,20 @@ public class ModItems {
 
     public static final Item EXOTIC_PICKAXE = registerItem("exotic_pickaxe",
             new PickaxeArtifact(new FabricItemSettings().rarity(Rarity.UNCOMMON).group(ModItemGroup.DUNGEON_ARTIFACTS)));
+
+    //**Sword Set**//
+
+    public static final Item COMMON_SWORD = registerItem("common_sword",
+            new SwordArtifact(new FabricItemSettings().rarity(Rarity.COMMON).group(ModItemGroup.DUNGEON_ARTIFACTS)));
+
+    public static final Item RARE_SWORD = registerItem("rare_sword",
+            new SwordArtifact(new FabricItemSettings().rarity(Rarity.RARE).group(ModItemGroup.DUNGEON_ARTIFACTS)));
+
+    public static final Item LEGENDARY_SWORD = registerItem("legendary_sword",
+            new SwordArtifact(new FabricItemSettings().rarity(Rarity.EPIC).group(ModItemGroup.DUNGEON_ARTIFACTS)));
+
+    public static final Item EXOTIC_SWORD = registerItem("exotic_sword",
+            new SwordArtifact(new FabricItemSettings().rarity(Rarity.UNCOMMON).group(ModItemGroup.DUNGEON_ARTIFACTS)));
 
     //**Dragon Egg Set**//
 

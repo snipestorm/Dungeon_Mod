@@ -17,8 +17,8 @@ public class DungeonModClient implements ClientModInitializer {
 
         FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_SOUL_LAVA, ModFluids.FLOWING_SOUL_LAVA,
                 new SimpleFluidRenderHandler(
-                        new Identifier("dungeonmod:fluid/soul_lava_still"),
-                        new Identifier("dungeonmod:fluid/soul_lava_flow")
+                        new Identifier("dungeonmod:block/soul_lava_still"),
+                        new Identifier("dungeonmod:block/soul_lava_flow")
 
                 ));
 

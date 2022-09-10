@@ -11,20 +11,26 @@
   "item.dungeonmod.soul_lava_bucket": "Soul Lava Bucket",
 
 
-  "item.dungeonmod.mythical_fire_stone": "☠ Mythical Artifact: Fire Stone ☠",
-  "item.dungeonmod.mythical_water_stone": "☠ Mythical Artifact: Water Stone ☠",
-  "item.dungeonmod.mythical_earth_stone": "☠ Mythical Artifact: Earth Stone ☠",
-  "item.dungeonmod.mythical_wardens_axe": "☠ Mythical Artifact: Wardens Axe ☠",
+  "item.dungeonmod.mythical_fire_stone": "§6☠ Mythical Artifact: Fire Stone ☠",
+  "item.dungeonmod.mythical_water_stone": "§6☠ Mythical Artifact: Water Stone ☠",
+  "item.dungeonmod.mythical_earth_stone": "§6☠ Mythical Artifact: Earth Stone ☠",
+  "item.dungeonmod.mythical_wardens_axe": "§6☠ Mythical Artifact: Wardens Axe ☠",
   "item.dungeonmod.mythical_golden_gauntlet": "§6☠ Mythical Artifact: Gauntlet Of Gold ☠",
-  "item.dungeonmod.mythical_staff_coins": "☠ Mythical Artifact: Staff Of Coins ☠",
-  "item.dungeonmod.mythical_staff_skill": "☠ Mythical Artifact: Staff Of Skill ☠",
-  "item.dungeonmod.mythical_staff_ancients": "☠ Mythical Artifact: Staff Of Ancients ☠",
+  "item.dungeonmod.mythical_staff_coins": "§6☠ Mythical Artifact: Staff Of Coins ☠",
+  "item.dungeonmod.mythical_staff_skill": "§6☠ Mythical Artifact: Staff Of Skill ☠",
+  "item.dungeonmod.mythical_staff_ancients": "§6☠ Mythical Artifact: Staff Of Ancients ☠",
+  "item.dungeonmod.mythical_technoblades_amulet": "§6☠ Mythical Artifact: Technoblades Amulet ☠",
 
 
   "item.dungeonmod.common_pickaxe": "☠ Common Artifact: Basic Pickaxe ☠",
   "item.dungeonmod.rare_pickaxe": "☠ Rare Artifact: Strong Pickaxe ☠",
   "item.dungeonmod.legendary_pickaxe": "☠ Legendary Artifact: Elite Pickaxe ☠",
   "item.dungeonmod.exotic_pickaxe": "☠ Exotic Artifact: Exquisite Pickaxe ☠",
+
+  "item.dungeonmod.common_sword": "☠ Common Artifact: Sword Of Corruption ☠",
+  "item.dungeonmod.rare_sword": "☠ Rare Artifact: Sword Of Souls ☠",
+  "item.dungeonmod.legendary_sword": "☠ Legendary Artifact: Sword Of The Void ☠",
+  "item.dungeonmod.exotic_sword": "☠ Exotic Artifact: Sword Of The Gods ☠",
 
   "item.dungeonmod.common_dragon_egg": "☠ Common Artifact: Dragon Egg ☠",
   "item.dungeonmod.rare_dragon_egg": "☠ Rare Artifact: Tidal Dragon Egg ☠",
