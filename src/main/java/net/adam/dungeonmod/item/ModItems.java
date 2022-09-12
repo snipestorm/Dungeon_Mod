@@ -103,7 +103,7 @@ public class ModItems {
     public static final Item MYTHICAL_ARTIFACT_PLANETARY_CATALYST = registerItem("mythical_planetary_catalyst",
             new MythicalArtifact(new FabricItemSettings().group(ModItemGroup.DUNGEON_ARTIFACTS)));
 
-    public static final Item MYTHICAL_ARTIFACT_SCARAB_TALISMEN = registerItem("mythical_scarab_talismen",
+    public static final Item MYTHICAL_ARTIFACT_SCARAB_TALISMAN = registerItem("mythical_scarab_talisman",
             new MythicalArtifact(new FabricItemSettings().group(ModItemGroup.DUNGEON_ARTIFACTS)));
     public static final Item MYTHICAL_ARTIFACT_GOLDEN_GAUNTLET = registerItem("mythical_golden_gauntlet",
             new MythicalArtifact(new FabricItemSettings().group(ModItemGroup.DUNGEON_ARTIFACTS)));

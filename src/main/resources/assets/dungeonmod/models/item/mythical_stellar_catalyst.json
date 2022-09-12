@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "dungeonmod:item/mythical_stellar_catalyst"
+    "layer0": "dungeonmod:item/mythical_planetary_catalyst"
   }
 }
