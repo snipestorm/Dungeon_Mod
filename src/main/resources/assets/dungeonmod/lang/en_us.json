@@ -13,7 +13,7 @@
 
   "item.dungeonmod.mythical_runic_hammer": "§6☠ Mythical Artifact: Runic Hammer Of The Old Gods ☠",
   "item.dungeonmod.mythical_planetary_catalyst": "§6☠ Mythical Artifact: Planetary Catalyst ☠",
-  "item.dungeonmod.mythical_scarab_talismen": "§6☠ Mythical Artifact: Scarab Talismen Of Tutankhamen ☠",
+  "item.dungeonmod.mythical_scarab_talisman": "§6☠ Mythical Artifact: Scarab Talisman Of Tutankhamen ☠",
   "item.dungeonmod.mythical_wardens_axe": "§6☠ Mythical Artifact: Wardens Axe ☠",
   "item.dungeonmod.mythical_golden_gauntlet": "§6☠ Mythical Artifact: Gauntlet Of Gold ☠",
   "item.dungeonmod.mythical_staff_coins": "§6☠ Mythical Artifact: Staff Of Coins ☠",
@@ -76,6 +76,11 @@
   "item.dungeonmod.rare_essence": "☠ Rare Artifact: Spiritual Essence ☠",
   "item.dungeonmod.legendary_essence": "☠ Legendary Artifact: Void Essence ☠",
   "item.dungeonmod.exotic_essence": "☠ Exotic Artifact: Extraterrestrial Essence ☠",
+
+  "item.dungeonmod.common_gem": "☠ Common Artifact: Infused Cut Emerald ☠",
+  "item.dungeonmod.rare_gem": "☠ Rare Artifact: Infused Cut Ruby ☠",
+  "item.dungeonmod.legendary_gem": "☠ Legendary Artifact: Infused Cut Diamond ☠",
+  "item.dungeonmod.exotic_gem": "☠ Exotic Artifact: Infused Cut Black Diamond ☠",
 
   "item.dungeonmod.stealth_1": "☠ Stealth I ☠",
   "item.dungeonmod.stealth_2": "☠ Stealth II ☠",

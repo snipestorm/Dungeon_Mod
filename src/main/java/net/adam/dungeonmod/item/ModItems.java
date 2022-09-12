@@ -276,6 +276,19 @@ public class ModItems {
     public static final Item EXOTIC_ESSENCE = registerItem("exotic_essence",
             new EssenceArtifact(new FabricItemSettings().rarity(Rarity.UNCOMMON).group(ModItemGroup.DUNGEON_ARTIFACTS)));
 
+    //**Gem Set**//
+
+    public static final Item COMMON_GEM = registerItem("common_gem",
+            new GemArtifact(new FabricItemSettings().rarity(Rarity.COMMON).group(ModItemGroup.DUNGEON_ARTIFACTS)));
+
+    public static final Item RARE_GEM = registerItem("rare_gem",
+            new GemArtifact(new FabricItemSettings().rarity(Rarity.RARE).group(ModItemGroup.DUNGEON_ARTIFACTS)));
+
+    public static final Item LEGENDARY_GEM = registerItem("legendary_gem",
+            new GemArtifact(new FabricItemSettings().rarity(Rarity.EPIC).group(ModItemGroup.DUNGEON_ARTIFACTS)));
+
+    public static final Item EXOTIC_GEM = registerItem("exotic_gem",
+            new GemArtifact(new FabricItemSettings().rarity(Rarity.UNCOMMON).group(ModItemGroup.DUNGEON_ARTIFACTS)));
 
 
     //**Cards**//
