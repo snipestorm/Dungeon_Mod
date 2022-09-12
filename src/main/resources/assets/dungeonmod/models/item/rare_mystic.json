@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "dungeonmod:item/mythical_earth_stone"
+    "layer0": "dungeonmod:item/mystic_rare"
   }
 }

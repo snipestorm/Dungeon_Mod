@@ -97,13 +97,13 @@ public class ModItems {
     //*Artifacts*//
 
     //**Mythical**//
-    public static final Item MYTHICAL_ARTIFACT_FIRE_STONE = registerItem("mythical_fire_stone",
+    public static final Item MYTHICAL_ARTIFACT_RUNIC_HAMMER = registerItem("mythical_runic_hammer",
             new MythicalArtifact(new FabricItemSettings().group(ModItemGroup.DUNGEON_ARTIFACTS)));
 
-    public static final Item MYTHICAL_ARTIFACT_WATER_STONE = registerItem("mythical_water_stone",
+    public static final Item MYTHICAL_ARTIFACT_PLANETARY_CATALYST = registerItem("mythical_planetary_catalyst",
             new MythicalArtifact(new FabricItemSettings().group(ModItemGroup.DUNGEON_ARTIFACTS)));
 
-    public static final Item MYTHICAL_ARTIFACT_EARTH_STONE = registerItem("mythical_earth_stone",
+    public static final Item MYTHICAL_ARTIFACT_SCARAB_TALISMEN = registerItem("mythical_scarab_talismen",
             new MythicalArtifact(new FabricItemSettings().group(ModItemGroup.DUNGEON_ARTIFACTS)));
     public static final Item MYTHICAL_ARTIFACT_GOLDEN_GAUNTLET = registerItem("mythical_golden_gauntlet",
             new MythicalArtifact(new FabricItemSettings().group(ModItemGroup.DUNGEON_ARTIFACTS)));
@@ -233,6 +233,49 @@ public class ModItems {
 
     public static final Item EXOTIC_VOID = registerItem("exotic_void",
             new VoidArtifact(new FabricItemSettings().rarity(Rarity.UNCOMMON).group(ModItemGroup.DUNGEON_ARTIFACTS)));
+
+    //**Mystic Set**//
+
+    public static final Item COMMON_MYSTIC = registerItem("common_mystic",
+            new MysticArtifact(new FabricItemSettings().rarity(Rarity.COMMON).group(ModItemGroup.DUNGEON_ARTIFACTS)));
+
+    public static final Item RARE_MYSTIC = registerItem("rare_mystic",
+            new MysticArtifact(new FabricItemSettings().rarity(Rarity.RARE).group(ModItemGroup.DUNGEON_ARTIFACTS)));
+
+    public static final Item LEGENDARY_MYSTIC = registerItem("legendary_mystic",
+            new MysticArtifact(new FabricItemSettings().rarity(Rarity.EPIC).group(ModItemGroup.DUNGEON_ARTIFACTS)));
+
+    public static final Item EXOTIC_MYSTIC = registerItem("exotic_mystic",
+            new MysticArtifact(new FabricItemSettings().rarity(Rarity.UNCOMMON).group(ModItemGroup.DUNGEON_ARTIFACTS)));
+
+    //**Rune Set**//
+
+    public static final Item COMMON_RUNE = registerItem("common_rune",
+            new RuneArtifact(new FabricItemSettings().rarity(Rarity.COMMON).group(ModItemGroup.DUNGEON_ARTIFACTS)));
+
+    public static final Item RARE_RUNE = registerItem("rare_rune",
+            new RuneArtifact(new FabricItemSettings().rarity(Rarity.RARE).group(ModItemGroup.DUNGEON_ARTIFACTS)));
+
+    public static final Item LEGENDARY_RUNE = registerItem("legendary_rune",
+            new RuneArtifact(new FabricItemSettings().rarity(Rarity.EPIC).group(ModItemGroup.DUNGEON_ARTIFACTS)));
+
+    public static final Item EXOTIC_RUNE = registerItem("exotic_rune",
+            new RuneArtifact(new FabricItemSettings().rarity(Rarity.UNCOMMON).group(ModItemGroup.DUNGEON_ARTIFACTS)));
+
+    //**Essence Set**//
+
+    public static final Item COMMON_ESSENCE = registerItem("common_essence",
+            new EssenceArtifact(new FabricItemSettings().rarity(Rarity.COMMON).group(ModItemGroup.DUNGEON_ARTIFACTS)));
+
+    public static final Item RARE_ESSENCE = registerItem("rare_essence",
+            new EssenceArtifact(new FabricItemSettings().rarity(Rarity.RARE).group(ModItemGroup.DUNGEON_ARTIFACTS)));
+
+    public static final Item LEGENDARY_ESSENCE = registerItem("legendary_essence",
+            new EssenceArtifact(new FabricItemSettings().rarity(Rarity.EPIC).group(ModItemGroup.DUNGEON_ARTIFACTS)));
+
+    public static final Item EXOTIC_ESSENCE = registerItem("exotic_essence",
+            new EssenceArtifact(new FabricItemSettings().rarity(Rarity.UNCOMMON).group(ModItemGroup.DUNGEON_ARTIFACTS)));
+
 
 
     //**Cards**//

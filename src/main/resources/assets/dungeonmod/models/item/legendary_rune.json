@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "dungeonmod:item/mythical_water_stone"
+    "layer0": "dungeonmod:item/rune_legendary"
   }
 }

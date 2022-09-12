@@ -1,0 +1,18 @@
+{
+  "type": "dungeonmod:artifact_transmuting",
+  "ingredients": [
+    {
+      "item": "dungeonmod:mythical_technoblades_amulet"
+    }
+  ],
+
+  "output": {
+    "item": "dungeonmod:legendary_loot_box_key",
+    "count": 1
+  },
+
+  "output2": {
+    "item": "dungeonmod:dungeon_crystal",
+    "count": 3
+  }
+}

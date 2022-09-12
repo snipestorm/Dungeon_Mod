@@ -11,9 +11,9 @@
   "item.dungeonmod.soul_lava_bucket": "Soul Lava Bucket",
 
 
-  "item.dungeonmod.mythical_fire_stone": "§6☠ Mythical Artifact: Fire Stone ☠",
-  "item.dungeonmod.mythical_water_stone": "§6☠ Mythical Artifact: Water Stone ☠",
-  "item.dungeonmod.mythical_earth_stone": "§6☠ Mythical Artifact: Earth Stone ☠",
+  "item.dungeonmod.mythical_runic_hammer": "§6☠ Mythical Artifact: Runic Hammer Of The Old Gods ☠",
+  "item.dungeonmod.mythical_planetary_catalyst": "§6☠ Mythical Artifact: Planetary Catalyst ☠",
+  "item.dungeonmod.mythical_scarab_talismen": "§6☠ Mythical Artifact: Scarab Talismen Of Tutankhamen ☠",
   "item.dungeonmod.mythical_wardens_axe": "§6☠ Mythical Artifact: Wardens Axe ☠",
   "item.dungeonmod.mythical_golden_gauntlet": "§6☠ Mythical Artifact: Gauntlet Of Gold ☠",
   "item.dungeonmod.mythical_staff_coins": "§6☠ Mythical Artifact: Staff Of Coins ☠",
@@ -61,6 +61,21 @@
   "item.dungeonmod.rare_void": "☠ Rare Artifact: Secrets Of The Void ☠",
   "item.dungeonmod.legendary_void": "☠ Legendary Artifact: Protector Of The Oracle ☠",
   "item.dungeonmod.exotic_void": "☠ Exotic Artifact: Oracle Of The Void ☠",
+
+  "item.dungeonmod.common_mystic": "☠ Common Artifact: Dimensional Mirror ☠",
+  "item.dungeonmod.rare_mystic": "☠ Rare Artifact: Ring Of The Divine☠",
+  "item.dungeonmod.legendary_mystic": "☠ Legendary Artifact: Hand Of The Prophet ☠",
+  "item.dungeonmod.exotic_mystic": "☠ Exotic Artifact: Holy Necklace ☠",
+
+  "item.dungeonmod.common_rune": "☠ Common Artifact: Rune Of Storm Call ☠",
+  "item.dungeonmod.rare_rune": "☠ Rare Artifact: Rune Of Endless Blizzard ☠",
+  "item.dungeonmod.legendary_rune": "☠ Legendary Artifact: Rune Of Unwavering Power ☠",
+  "item.dungeonmod.exotic_rune": "☠ Exotic Artifact: Rune Of Ultimate Destruction ☠",
+
+  "item.dungeonmod.common_essence": "☠ Common Artifact: Basic Essence ☠",
+  "item.dungeonmod.rare_essence": "☠ Rare Artifact: Spiritual Essence ☠",
+  "item.dungeonmod.legendary_essence": "☠ Legendary Artifact: Void Essence ☠",
+  "item.dungeonmod.exotic_essence": "☠ Exotic Artifact: Extraterrestrial Essence ☠",
 
   "item.dungeonmod.stealth_1": "☠ Stealth I ☠",
   "item.dungeonmod.stealth_2": "☠ Stealth II ☠",
