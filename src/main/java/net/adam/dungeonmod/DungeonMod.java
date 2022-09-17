@@ -4,6 +4,7 @@ import net.adam.dungeonmod.block.ModBlocks;
 import net.adam.dungeonmod.block.entity.ModBlockEntities;
 import net.adam.dungeonmod.enchantment.ModEnchantment;
 import net.adam.dungeonmod.item.ModItems;
+import net.adam.dungeonmod.painting.ModPaintings;
 import net.adam.dungeonmod.recipe.ModRecipes;
 import net.adam.dungeonmod.screen.ModScreenHandlers;
 import net.adam.dungeonmod.util.ModLootTableModifiers;
@@ -33,5 +34,6 @@ public class DungeonMod implements ModInitializer {
 		ModBlockEntities.registerBlockEntities();
 		ModScreenHandlers.registerAllScreenHandlers();
 		ModRecipes.registerRecipes();
+		ModPaintings.registerPaintings();
 	}
 }

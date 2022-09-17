@@ -118,6 +118,7 @@ public class ArtifactTransmuterRecipe implements Recipe<SimpleInventory> {
                 ing.write(buf);
             }
             buf.writeItemStack(recipe.getOutput());
+            buf.writeItemStack(recipe.getOutput2());
         }
     }
 }
