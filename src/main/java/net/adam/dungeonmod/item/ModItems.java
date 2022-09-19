@@ -39,6 +39,35 @@ public class ModItems {
     public static final Item CRYSTAL_INGOT = registerItem("crystal_ingot",
             new Item(new FabricItemSettings().group(ModItemGroup.DUNGEON)));
 
+    //**Achievements**//
+
+    public static final Item VOID_COMPASS = registerItem("void_compass",
+            new Item(new FabricItemSettings().group(ModItemGroup.DUNGEON_ADVANCEMENTS)));
+
+    public static final Item CHALLENGE_COMPASS = registerItem("challenge_compass",
+            new Item(new FabricItemSettings().group(ModItemGroup.DUNGEON_ADVANCEMENTS)));
+    public static final Item SHOP = registerItem("shop",
+            new Item(new FabricItemSettings().group(ModItemGroup.DUNGEON_ADVANCEMENTS)));
+
+    public static final Item CARDS = registerItem("cards",
+            new Item(new FabricItemSettings().group(ModItemGroup.DUNGEON_ADVANCEMENTS)));
+
+    public static final Item DUNGEON_COIN_SALE = registerItem("dungeon_coin_sale",
+            new Item(new FabricItemSettings().group(ModItemGroup.DUNGEON_ADVANCEMENTS)));
+
+    public static final Item T1_UPGRADE = registerItem("t1_upgrade",
+            new Item(new FabricItemSettings().group(ModItemGroup.DUNGEON_ADVANCEMENTS)));
+
+    public static final Item T2_UPGRADE = registerItem("t2_upgrade",
+            new Item(new FabricItemSettings().group(ModItemGroup.DUNGEON_ADVANCEMENTS)));
+
+    public static final Item T3_UPGRADE = registerItem("t3_upgrade",
+            new Item(new FabricItemSettings().group(ModItemGroup.DUNGEON_ADVANCEMENTS)));
+
+    public static final Item T4_UPGRADE = registerItem("t4_upgrade",
+            new Item(new FabricItemSettings().group(ModItemGroup.DUNGEON_ADVANCEMENTS)));
+
+
 
     //*Tools*//
     public static final Item ANCIENT_NETHERITE_PICKAXE = registerItem("ancient_netherite_pickaxe",

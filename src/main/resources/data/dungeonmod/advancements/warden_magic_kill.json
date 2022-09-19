@@ -1,0 +1,36 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "You Thought You Could Run...",
+            "color": "dark_red"
+        },
+        "description": {
+            "text": "Be Killed By The Warden Of The Ancients Sonic Boom"
+        },
+        "icon": {
+            "item": "dungeonmod:legendary_warden"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "magic": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:warden",
+                    "location": {
+                        "dimension": "dungeonmod:dungeon"
+                    }
+                },
+                "killing_blow": {
+                    "is_magic": true
+                }
+            }
+        }
+    },
+    "parent": "dungeonmod:ancient"
+}

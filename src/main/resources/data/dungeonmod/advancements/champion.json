@@ -1,0 +1,26 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "The Champions Prize",
+            "color": "gold"
+        },
+        "description": {
+            "text": "Congratulations Dungeon Champion",
+            "color": "gold"
+        },
+        "icon": {
+            "item": "minecraft:red_shulker_box"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "champ": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "dungeonmod:contract"
+}

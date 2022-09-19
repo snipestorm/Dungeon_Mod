@@ -1,0 +1,25 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Ancient Soul Seeker"
+        },
+        "description": {
+            "text": "Punch Out A Soul Flame In The Ancient Area Of The Dungeon",
+            "color": "aqua"
+        },
+        "icon": {
+            "item": "minecraft:soul_campfire"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "soul": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "dungeonmod:ancient"
+}

@@ -1,0 +1,29 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Thats An Odd Portal..."
+        },
+        "description": {
+            "text": "Enter The Portal To The Shops",
+            "color": "aqua"
+        },
+        "icon": {
+            "item": "dungeonmod:shop"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "dim": {
+            "trigger": "minecraft:changed_dimension",
+            "conditions": {
+                "from": "dungeonmod:dungeon",
+                "to": "dungeonmod:dungeon_shop"
+            }
+        }
+    },
+    "parent": "dungeonmod:contract"
+}

@@ -1,0 +1,35 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "The Beast Feasts",
+            "color": "dark_red"
+        },
+        "description": {
+            "text": "Killed By The Beast",
+            "color": "aqua"
+        },
+        "icon": {
+            "item": "minecraft:cooked_mutton"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "Killed": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:ravager",
+                    "location": {
+                        "dimension": "dungeonmod:dungeon"
+                    }
+                }
+            }
+        }
+
+    },
+    "parent": "dungeonmod:enter_dungeon"
+}

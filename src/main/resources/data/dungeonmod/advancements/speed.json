@@ -1,0 +1,25 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "I Am Lightning!"
+        },
+        "description": {
+            "text": "Use A Speed Card",
+            "color": "aqua"
+        },
+        "icon": {
+            "item": "dungeonmod:speed_4"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "zoom": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "dungeonmod:collect_em_all"
+}

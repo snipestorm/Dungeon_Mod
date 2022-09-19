@@ -16,4 +16,7 @@ public class ModItemGroup {
     public static final ItemGroup DUNGEON_ARTIFACTS = FabricItemGroupBuilder.build(
             new Identifier(DungeonMod.MOD_ID,"dungeon_artifacts"),() -> new ItemStack(ModItems.MYTHICAL_ARTIFACT_GOLDEN_GAUNTLET));
 
+    public static final ItemGroup DUNGEON_ADVANCEMENTS = FabricItemGroupBuilder.build(
+            new Identifier(DungeonMod.MOD_ID,"dungeon_advancements"),() -> new ItemStack(ModItems.SHOP));
+
 }

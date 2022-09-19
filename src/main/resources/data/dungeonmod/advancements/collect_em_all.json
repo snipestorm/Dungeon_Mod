@@ -1,0 +1,85 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Collect Em All",
+            "color": "gold"
+        },
+        "description": {
+            "text": "Use All 10 Cards",
+            "color": "dark_purple"
+        },
+        "icon": {
+            "item": "dungeonmod:cards"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "Stealth": {
+            "trigger": "minecraft:impossible"
+        },
+        "Resistance": {
+            "trigger": "minecraft:impossible"
+        },
+        "Speed": {
+            "trigger": "minecraft:impossible"
+        },
+        "Loot Finder": {
+            "trigger": "minecraft:impossible"
+        },
+        "Soul Seeker": {
+            "trigger": "minecraft:impossible"
+        },
+        "Beast Sense": {
+            "trigger": "minecraft:impossible"
+        },
+        "Sculk Walker": {
+            "trigger": "minecraft:impossible"
+        },
+        "Skiller": {
+            "trigger": "minecraft:impossible"
+        },
+        "Equilibrium": {
+            "trigger": "minecraft:impossible"
+        },
+        "Dimensionalist": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "Stealth"
+        ],
+        [
+            "Resistance"
+        ],
+        [
+            "Speed"
+        ],
+        [
+            "Loot Finder"
+        ],
+        [
+            "Soul Seeker"
+        ],
+        [
+            "Beast Sense"
+        ],
+        [
+            "Sculk Walker"
+        ],
+        [
+            "Skiller"
+        ],
+        [
+            "Equilibrium"
+        ],
+        [
+            "Dimensionalist"
+        ]
+    ],
+    "parent": "dungeonmod:contract"
+}

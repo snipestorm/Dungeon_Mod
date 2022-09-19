@@ -1,0 +1,37 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "A Magical Death",
+            "color": "dark_red"
+        },
+        "description": {
+            "text": "Killed By A Dungeon Spirits Magic",
+            "color": "aqua"
+        },
+        "icon": {
+            "item": "minecraft:totem_of_undying"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "Die": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:evoker",
+                    "location": {
+                        "dimension": "dungeonmod:dungeon"
+                    }
+                },
+                "killing_blow": {
+                    "is_magic": true
+                }
+            }
+        }
+    },
+    "parent": "dungeonmod:enter_dungeon"
+}

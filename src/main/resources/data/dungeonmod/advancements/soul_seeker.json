@@ -1,0 +1,25 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Fetch Me Their Souls"
+        },
+        "description": {
+            "text": "Use A Soul Seeker Card",
+            "color": "aqua"
+        },
+        "icon": {
+            "item": "dungeonmod:soul_seeker_4"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "soul": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "dungeonmod:collect_em_all"
+}

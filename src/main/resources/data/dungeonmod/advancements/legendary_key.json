@@ -1,0 +1,26 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Legendary Looter",
+            "color": "dark_purple"
+        },
+        "description": {
+            "text": "Use A Legendary Loot Box Key",
+            "color": "aqua"
+        },
+        "icon": {
+            "item": "dungeonmod:legendary_loot_box_key"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "legendary": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "dungeonmod:artifacts"
+}

@@ -1,0 +1,26 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Extreme Dungeoneer",
+            "color": "gold"
+        },
+        "description": {
+            "text": "Complete A Dimension Compass",
+            "color": "dark_purple"
+        },
+        "icon": {
+            "item": "dungeonmod:void_compass"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "Compass": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "dungeonmod:dimension_enter"
+}

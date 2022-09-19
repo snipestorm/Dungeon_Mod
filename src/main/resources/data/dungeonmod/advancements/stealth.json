@@ -1,0 +1,25 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Shhh..."
+        },
+        "description": {
+            "text": "Use A Stealth Card",
+            "color": "aqua"
+        },
+        "icon": {
+            "item": "dungeonmod:stealth_4"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "shhh": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "dungeonmod:collect_em_all"
+}

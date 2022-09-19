@@ -1,0 +1,25 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Its Bulking Season"
+        },
+        "description": {
+            "text": "Use A Resistance Card",
+            "color": "aqua"
+        },
+        "icon": {
+            "item": "dungeonmod:resistance_4"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "res": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "dungeonmod:collect_em_all"
+}

@@ -19,12 +19,12 @@ public class ModDimensions {
     public static final RegistryKey<World> DUNGEON_DIMENSION_KEY = RegistryKey.of(Registry.WORLD_KEY,
             new Identifier(DungeonMod.MOD_ID,"dungeon"));
     public static final RegistryKey<DimensionType> DUNGEON_TYPE_KEY = RegistryKey.of(Registry.DIMENSION_TYPE_KEY,
-            DUNGEON_SHOP_DIMENSION_KEY.getValue());
+            DUNGEON_DIMENSION_KEY.getValue());
 
     public static final RegistryKey<World> DUNGEON_DIMENSIONALIST_DIMENSION_KEY = RegistryKey.of(Registry.WORLD_KEY,
             new Identifier(DungeonMod.MOD_ID,"dungeon_dimensionalist"));
     public static final RegistryKey<DimensionType> DUNGEON_DIMENSIONALIST_TYPE_KEY = RegistryKey.of(Registry.DIMENSION_TYPE_KEY,
-            DUNGEON_SHOP_DIMENSION_KEY.getValue());
+            DUNGEON_DIMENSIONALIST_DIMENSION_KEY.getValue());
 
 
     public static void register() {
@@ -41,6 +41,7 @@ public class ModDimensions {
         CustomPortalBuilder.beginPortal()
                 .frameBlock(Blocks.POLISHED_BLACKSTONE)
                 .destDimID(DUNGEON_SHOP_DIMENSION_KEY.getValue())
+                .returnDim(DUNGEON_DIMENSION_KEY.getValue(),true)
                 .tintColor(0,206, 209)
                 .lightWithItem(ModItems.DUNGEON_COIN)
                 .registerPortal();
@@ -48,6 +49,7 @@ public class ModDimensions {
         CustomPortalBuilder.beginPortal()
                 .frameBlock(Blocks.GOLD_BLOCK)
                 .destDimID(DUNGEON_DIMENSIONALIST_DIMENSION_KEY.getValue())
+                .returnDim(DUNGEON_DIMENSION_KEY.getValue(),true)
                 .tintColor(220,20, 60)
                 .lightWithItem(ModItems.DUNGEON_CRYSTAL)
                 .registerPortal();

@@ -1,0 +1,25 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "A Contract"
+        },
+        "description": {
+            "text": "Completed The Audiobooks & Received Your Deck",
+            "color": "aqua"
+        },
+        "icon": {
+            "item": "dungeonmod:rare_demon"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "Contract": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "dungeonmod:root"
+}

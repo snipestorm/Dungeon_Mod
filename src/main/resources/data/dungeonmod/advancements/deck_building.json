@@ -1,0 +1,49 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Deck Building Maestro",
+            "color": "gold"
+        },
+        "description": {
+            "text": "Complete All Card Upgrades",
+            "color": "dark_purple"
+        },
+        "icon": {
+            "item": "minecraft:white_shulker_box"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "1": {
+            "trigger": "minecraft:impossible"
+        },
+        "2": {
+            "trigger": "minecraft:impossible"
+        },
+        "3": {
+            "trigger": "minecraft:impossible"
+        },
+        "4": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "1"
+        ],
+        [
+            "2"
+        ],
+        [
+            "3"
+        ],
+        [
+            "4"
+        ]
+    ],
+    "parent": "dungeonmod:contract"
+}

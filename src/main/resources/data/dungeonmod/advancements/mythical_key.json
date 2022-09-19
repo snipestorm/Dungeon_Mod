@@ -1,0 +1,26 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Mythical Looter",
+            "color": "gold"
+        },
+        "description": {
+            "text": "Use A Mythical Loot Box Key",
+            "color": "dark_purple"
+        },
+        "icon": {
+            "item": "dungeonmod:mythical_loot_box_key"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "mythic": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "dungeonmod:artifacts"
+}

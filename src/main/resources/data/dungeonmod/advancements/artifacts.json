@@ -1,0 +1,55 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Artifact Collector",
+            "color": "gold"
+        },
+        "description": {
+            "text": "Complete All Sub Achievements",
+            "color": "dark_purple"
+        },
+        "icon": {
+            "item": "dungeonmod:mythical_planetary_catalyst"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "loot": {
+            "trigger": "minecraft:impossible"
+        },
+        "legendary": {
+            "trigger": "minecraft:impossible"
+        },
+        "mythcial": {
+            "trigger": "minecraft:impossible"
+        },
+        "set": {
+            "trigger": "minecraft:impossible"
+        },
+        "aon": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "loot"
+        ],
+        [
+            "legendary"
+        ],
+        [
+            "mythcial"
+        ],
+        [
+            "set"
+        ],
+        [
+            "aon"
+        ]
+    ],
+    "parent": "dungeonmod:contract"
+}

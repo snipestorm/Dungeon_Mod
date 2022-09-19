@@ -1,0 +1,25 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Rare Card Hunter"
+        },
+        "description": {
+            "text": "Complete A Tier 3 Upgrade & Receive A Tier 4 Card",
+            "color": "aqua"
+        },
+        "icon": {
+            "item": "dungeonmod:t3_upgrade"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "3": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "dungeonmod:deck_building"
+}

@@ -1,0 +1,25 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Free Entry!"
+        },
+        "description": {
+            "text": "Press The Button On The Crystal Timer",
+            "color": "aqua"
+        },
+        "icon": {
+            "item": "minecraft:redstone_lamp"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "lamp": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "dungeonmod:contract"
+}

@@ -1,0 +1,25 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Building Momentum"
+        },
+        "description": {
+            "text": "Complete A Tier 2 Upgrade & Receive A Tier 3 Card",
+            "color": "aqua"
+        },
+        "icon": {
+            "item": "dungeonmod:t2_upgrade"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "2": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "dungeonmod:deck_building"
+}

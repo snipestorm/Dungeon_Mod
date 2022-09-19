@@ -1,0 +1,26 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Master Dungeoneer",
+            "color": "gold"
+        },
+        "description": {
+            "text": "Complete A Challenge Compass",
+            "color": "dark_purple"
+        },
+        "icon": {
+            "item": "dungeonmod:challenge_compass"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "compass": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "dungeonmod:enter_dungeon"
+}

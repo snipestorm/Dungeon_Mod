@@ -1,0 +1,26 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Master Of Cards",
+            "color": "dark_purple"
+        },
+        "description": {
+            "text": "Complete A Tier 4 Upgrade & Receive A Dimensionalist Card",
+            "color": "aqua"
+        },
+        "icon": {
+            "item": "dungeonmod:t4_upgrade"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "4": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "dungeonmod:deck_building"
+}

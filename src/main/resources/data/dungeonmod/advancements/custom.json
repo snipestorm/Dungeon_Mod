@@ -1,0 +1,26 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "All Or Nothing",
+            "color": "dark_purple"
+        },
+        "description": {
+            "text": "Receive A Custom Loot Box From The Lucky Dip Machine",
+            "color": "aqua"
+        },
+        "icon": {
+            "item": "minecraft:purple_shulker_box"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "aon": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "dungeonmod:artifacts"
+}

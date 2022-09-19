@@ -1,13 +1,23 @@
 {
   "item.dungeonmod.dungeon_crystal": "☠ Dungeon Crystal ☠",
   "item.dungeonmod.dungeon_coin": "☠ Dungeon Coin ☠",
-  "item.dungeonmod.ancient_tome": "☠ Ancient Tome ☠",
   "item.dungeonmod.skill": "☠ Skill ☠",
+  "item.dungeonmod.ancient_tome": "☠ Ancient Tome ☠",
   "item.dungeonmod.crystal": "Crystal",
   "item.dungeonmod.crystal_ingot": "Crystal Ingot",
   "item.dungeonmod.loot_box_key": "☠ Loot Box Key ☠",
   "item.dungeonmod.legendary_loot_box_key": "☠ Legendary Loot Box Key ☠",
   "item.dungeonmod.mythical_loot_box_key": "☠ Mythical Loot Box Key ☠",
+
+  "item.dungeonmod.void_compass": "Void Compass",
+  "item.dungeonmod.challenge_compass": "Challenge Compass",
+  "item.dungeonmod.shop": "shop",
+  "item.dungeonmod.cards": "cards",
+  "item.dungeonmod.dungeon_coin_sale": "Dungeon Coin Sale",
+  "item.dungeonmod.t1_upgrade": "Tier 1 -> Tier 2",
+  "item.dungeonmod.t2_upgrade": "Tier 2 -> Tier 3",
+  "item.dungeonmod.t3_upgrade": "Tier 3 -> Tier 4",
+  "item.dungeonmod.t4_upgrade": "Tier 4 -> Dimensionalist",
 
 
   "item.dungeonmod.mythical_runic_hammer": "§6☠ Mythical Artifact: Runic Hammer Of The Old Gods ☠",
@@ -158,5 +168,6 @@
 
   "itemGroup.dungeonmod.dungeon": "☠ Dungeon ☠",
   "itemGroup.dungeonmod.dungeon_cards": "☠ Dungeon Cards ☠",
-  "itemGroup.dungeonmod.dungeon_artifacts": "☠ Dungeon Artifacts ☠"
+  "itemGroup.dungeonmod.dungeon_artifacts": "☠ Dungeon Artifacts ☠",
+  "itemGroup.dungeonmod.dungeon_advancements": "☠ Dungeon Advancements ☠"
 }

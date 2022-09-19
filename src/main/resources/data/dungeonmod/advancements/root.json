@@ -1,0 +1,26 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "The Dungeon",
+            "color": "gold"
+        },
+        "description": {
+            "text": "Welcome To The Dungeon",
+            "color": "aqua"
+        },
+        "icon": {
+            "item": "dungeonmod:dungeon_crystal"
+        },
+        "frame": "goal",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true,
+        "background": "minecraft:textures/block/polished_blackstone.png"
+    },
+    "criteria": {
+        "Dungeon": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

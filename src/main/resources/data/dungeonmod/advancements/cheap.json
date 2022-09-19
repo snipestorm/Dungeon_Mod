@@ -1,0 +1,26 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "So So Cheap",
+            "color": "gold"
+        },
+        "description": {
+            "text": "Buy Something From The Black Market",
+            "color": "dark_purple"
+        },
+        "icon": {
+            "item": "dungeonmod:dungeon_coin_sale"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "bm": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "dungeonmod:portal"
+}

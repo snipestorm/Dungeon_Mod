@@ -1,0 +1,25 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Ring, Ring, Anyone There?"
+        },
+        "description": {
+            "text": "Use A Beast Sense Card",
+            "color": "aqua"
+        },
+        "icon": {
+            "item": "dungeonmod:beast_sense_4"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "beast": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "dungeonmod:collect_em_all"
+}

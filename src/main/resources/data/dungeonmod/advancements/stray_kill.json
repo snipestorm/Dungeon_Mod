@@ -1,0 +1,33 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Slow Mo Finisher",
+            "color": "green"
+        },
+        "description": {
+            "text": "Kill A Stray Within The Dungeon Using Only Your Fists"
+        },
+        "icon": {
+            "item": "minecraft:tipped_arrow"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "kill": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:stray",
+                    "location": {
+                        "dimension": "dungeonmod:dungeon"
+                    }
+                }
+            }
+        }
+    },
+    "parent": "dungeonmod:enter_dungeon"
+}

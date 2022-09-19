@@ -1,0 +1,25 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Its Dark In Here"
+        },
+        "description": {
+            "text": "Enter The Dungeon For The First Time",
+            "color": "aqua"
+        },
+        "icon": {
+            "item": "dungeonmod:dungeon_crystal"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "Entered": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "dungeonmod:contract"
+}

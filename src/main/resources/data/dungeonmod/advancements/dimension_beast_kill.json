@@ -1,0 +1,34 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Not Again...",
+            "color": "dark_red"
+        },
+        "description": {
+            "text": "Be Killed By A Dimension Beast",
+            "color": "aqua"
+        },
+        "icon": {
+            "item": "minecraft:cooked_beef"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "Killed": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:ravager",
+                    "location": {
+                        "dimension": "dungeonmod:dungeon_dimensionalist"
+                    }
+                }
+            }
+        }
+    },
+    "parent": "dungeonmod:dimension_enter"
+}

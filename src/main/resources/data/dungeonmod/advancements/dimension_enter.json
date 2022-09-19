@@ -1,0 +1,30 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Dimensionalist",
+            "color": "gold"
+        },
+        "description": {
+            "text": "Enter The Dimension",
+            "color": "aqua"
+        },
+        "icon": {
+            "item": "dungeonmod:dimensionalist"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "Dimensionalist": {
+            "trigger": "minecraft:changed_dimension",
+            "conditions": {
+                "from": "dungeonmod:dungeon",
+                "to": "dungeonmod:dungeon_dimensionalist"
+            }
+        }
+    },
+    "parent": "dungeonmod:enter_dungeon"
+}
