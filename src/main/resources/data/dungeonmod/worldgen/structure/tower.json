@@ -44,13 +44,13 @@
       "spawns": [
         {
           "type": "minecraft:evoker",
-          "weight": 30,
+          "weight": 45,
           "minCount": 1,
           "maxCount": 2
         },
         {
           "type": "minecraft:pillager",
-          "weight": 70,
+          "weight": 55,
           "minCount": 2,
           "maxCount": 3
         }
