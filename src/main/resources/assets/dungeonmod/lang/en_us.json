@@ -8,6 +8,7 @@
   "item.dungeonmod.loot_box_key": "☠ Loot Box Key ☠",
   "item.dungeonmod.legendary_loot_box_key": "☠ Legendary Loot Box Key ☠",
   "item.dungeonmod.mythical_loot_box_key": "☠ Mythical Loot Box Key ☠",
+  "item.dungeonmod.dungeon_champion_certificate": "☠ Season III Champions Certificate ☠",
 
   "item.dungeonmod.void_compass": "Void Compass",
   "item.dungeonmod.challenge_compass": "Challenge Compass",
@@ -163,6 +164,25 @@
   "block.dungeonmod.deepslate_crystal_ore": "Deepslate Crystal Ore",
   "block.dungeonmod.ritual_fire": "Ritual Fire",
   "block.dungeonmod.artifact_transmuter": "☠ Artifact Transmuter ☠",
+
+  "block.dungeonmod.echo_log": "Echo Log",
+  "block.dungeonmod.echo_wood": "Echo Wood",
+  "block.dungeonmod.echo_planks": "Echo Planks",
+  "block.dungeonmod.stripped_echo_log": "Stripped Echo Log",
+  "block.dungeonmod.stripped_echo_wood": "Stripped Echo Wood",
+  "block.dungeonmod.echo_door": "Echo Door",
+  "block.dungeonmod.echo_leaves": "Echo Leaves",
+  "block.dungeonmod.echo_sapling": "Echo Sapling",
+  "block.dungeonmod.echo_trapdoor": "Echo Trapdoor",
+  "block.dungeonmod.echo_stairs": "Echo Stairs",
+  "block.dungeonmod.echo_slab": "Echo Slab",
+  "block.dungeonmod.echo_wall": "Echo Wall",
+  "block.dungeonmod.echo_fence": "Echo Fence",
+  "block.dungeonmod.echo_fence_gate": "Echo Fence Gate",
+  "block.dungeonmod.echo_pressure_plate": "Echo Pressure Plate",
+  "block.dungeonmod.echo_button": "Echo Button",
+  "block.dungeonmod.echo_sign": "Echo Sign",
+
 
   "enchantment.dungeonmod.dungeon_champion_season": "Dungeon Champion Season",
 

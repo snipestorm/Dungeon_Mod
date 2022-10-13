@@ -1,6 +1,7 @@
 package net.adam.dungeonmod.item;
 
 import net.adam.dungeonmod.DungeonMod;
+import net.adam.dungeonmod.block.ModBlocks;
 import net.adam.dungeonmod.item.custom.*;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.entity.EquipmentSlot;
@@ -34,10 +35,20 @@ public class ModItems {
     public static final Item MYTHICAL_LOOT_BOX_KEY = registerItem("mythical_loot_box_key",
             new Item(new FabricItemSettings().group(ModItemGroup.DUNGEON)));
     public static final Item ANCIENT_NETHERITE_INGOT = registerItem("ancient_netherite_ingot",
-            new Item(new FabricItemSettings().group(ModItemGroup.DUNGEON)));
+            new Item(new FabricItemSettings().group(ModItemGroup.DUNGEON).fireproof()));
 
     public static final Item CRYSTAL_INGOT = registerItem("crystal_ingot",
             new Item(new FabricItemSettings().group(ModItemGroup.DUNGEON)));
+
+    public static final Item DUNGEON_CHAMPION_CERTIFICATE = registerItem("dungeon_champion_certificate",
+            new Item(new FabricItemSettings().rarity(Rarity.EPIC).group(ModItemGroup.DUNGEON)));
+
+
+    //**Misc Items**//
+
+    public static final Item ECHO_SIGN = registerItem("echo_sign",
+            new SignItem(new FabricItemSettings().group(ModItemGroup.DUNGEON).maxCount(16),
+                    ModBlocks.ECHO_SIGN_BLOCK, ModBlocks.ECHO_WALL_SIGN_BLOCK));
 
     //**Achievements**//
 
@@ -72,38 +83,38 @@ public class ModItems {
     //*Tools*//
     public static final Item ANCIENT_NETHERITE_PICKAXE = registerItem("ancient_netherite_pickaxe",
             new ModPickaxeItem(ModToolMaterials.ANCIENT_NETHERITE, 1,-2.8f,
-                    new FabricItemSettings().group(ModItemGroup.DUNGEON)));
+                    new FabricItemSettings().group(ModItemGroup.DUNGEON).fireproof()));
     public static final Item ANCIENT_NETHERITE_AXE = registerItem("ancient_netherite_axe",
             new ModAxeItem(ModToolMaterials.ANCIENT_NETHERITE, 6,-2.8f,
-                    new FabricItemSettings().group(ModItemGroup.DUNGEON)));
+                    new FabricItemSettings().group(ModItemGroup.DUNGEON).fireproof()));
     public static final Item ANCIENT_NETHERITE_SHOVEL = registerItem("ancient_netherite_shovel",
             new ShovelItem(ModToolMaterials.ANCIENT_NETHERITE, 2,-3f,
-                    new FabricItemSettings().group(ModItemGroup.DUNGEON)));
+                    new FabricItemSettings().group(ModItemGroup.DUNGEON).fireproof()));
     public static final Item ANCIENT_NETHERITE_SWORD = registerItem("ancient_netherite_sword",
             new SwordItem(ModToolMaterials.ANCIENT_NETHERITE, 4,-2.2f,
-                    new FabricItemSettings().group(ModItemGroup.DUNGEON)));
+                    new FabricItemSettings().group(ModItemGroup.DUNGEON).fireproof()));
 
     public static final Item ANCIENT_NETHERITE_HOE = registerItem("ancient_netherite_hoe",
             new ModHoeItem(ModToolMaterials.ANCIENT_NETHERITE, -5,1f,
-                    new FabricItemSettings().group(ModItemGroup.DUNGEON)));
+                    new FabricItemSettings().group(ModItemGroup.DUNGEON).fireproof()));
 
 //*Armor*//
 
     public static final Item ANCIENT_NETHERITE_HELMET = registerItem("dungeon_champions_helmet",
             new ArmorItem(ModArmorMaterials.ANCIENT_NETHERITE, EquipmentSlot.HEAD,
-                    new FabricItemSettings().rarity(Rarity.EPIC).group(ModItemGroup.DUNGEON)));
+                    new FabricItemSettings().rarity(Rarity.EPIC).group(ModItemGroup.DUNGEON).fireproof()));
 
     public static final Item ANCIENT_NETHERITE_CHESTPLATE = registerItem("dungeon_champions_chestplate",
             new ArmorItem(ModArmorMaterials.ANCIENT_NETHERITE, EquipmentSlot.CHEST,
-                    new FabricItemSettings().rarity(Rarity.EPIC).group(ModItemGroup.DUNGEON)));
+                    new FabricItemSettings().rarity(Rarity.EPIC).group(ModItemGroup.DUNGEON).fireproof()));
 
     public static final Item ANCIENT_NETHERITE_LEGGINGS = registerItem("dungeon_champions_leggings",
             new ArmorItem(ModArmorMaterials.ANCIENT_NETHERITE, EquipmentSlot.LEGS,
-                    new FabricItemSettings().rarity(Rarity.EPIC).group(ModItemGroup.DUNGEON)));
+                    new FabricItemSettings().rarity(Rarity.EPIC).group(ModItemGroup.DUNGEON).fireproof()));
 
     public static final Item ANCIENT_NETHERITE_BOOTS = registerItem("dungeon_champions_boots",
             new ArmorItem(ModArmorMaterials.ANCIENT_NETHERITE, EquipmentSlot.FEET,
-                    new FabricItemSettings().rarity(Rarity.EPIC).group(ModItemGroup.DUNGEON)));
+                    new FabricItemSettings().rarity(Rarity.EPIC).group(ModItemGroup.DUNGEON).fireproof()));
 
 
 

@@ -8,9 +8,10 @@ import net.adam.dungeonmod.painting.ModPaintings;
 import net.adam.dungeonmod.recipe.ModRecipes;
 import net.adam.dungeonmod.screen.ModScreenHandlers;
 import net.adam.dungeonmod.util.ModLootTableModifiers;
+import net.adam.dungeonmod.util.ModRegistries;
 import net.adam.dungeonmod.world.dimension.ModDimensions;
 import net.adam.dungeonmod.world.feature.ModConfiguredFeatures;
-import net.adam.dungeonmod.world.gen.ModOreGeneration;
+import net.adam.dungeonmod.world.gen.ModWorldGen;
 import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -27,7 +28,7 @@ public class DungeonMod implements ModInitializer {
 		ModConfiguredFeatures.registerConfiguredFeatures();
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
-		ModOreGeneration.generatedOres();
+		ModWorldGen.generateWorldGen();
 		ModLootTableModifiers.modifyLootTables();
 		ModEnchantment.registerModEnchantment();
 		ModDimensions.register();
@@ -35,5 +36,6 @@ public class DungeonMod implements ModInitializer {
 		ModScreenHandlers.registerAllScreenHandlers();
 		ModRecipes.registerRecipes();
 		ModPaintings.registerPaintings();
+		ModRegistries.registerModStuffs();
 	}
 }

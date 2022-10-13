@@ -2,10 +2,10 @@
     "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
     "display": {
         "title": {
-            "text": "Thats An Odd Portal..."
+            "text": "Its Just A Button..."
         },
         "description": {
-            "text": "Enter The Portal To The Shops",
+            "text": "Teleport To The Shopping Area",
             "color": "aqua"
         },
         "icon": {

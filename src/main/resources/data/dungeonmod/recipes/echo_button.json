@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "dungeonmod:echo_planks"
+    }
+  ],
+  "result": {
+    "item": "dungeonmod:echo_button"
+  }
+}

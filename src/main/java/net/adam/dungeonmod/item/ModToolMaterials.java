@@ -1,17 +1,14 @@
 package net.adam.dungeonmod.item;
 
-import net.fabricmc.yarn.constants.MiningLevels;
-import net.minecraft.item.Items;
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.recipe.Ingredient;
-import net.minecraft.tag.ItemTags;
 import net.minecraft.util.Lazy;
 
 import java.util.function.Supplier;
 
 public enum ModToolMaterials implements ToolMaterial {
 
-    ANCIENT_NETHERITE(MiningLevels.NETHERITE, 2751, 12.0f, 5.0f, 20, () -> Ingredient.ofItems(ModItems.ANCIENT_NETHERITE_INGOT));
+    ANCIENT_NETHERITE(5, 2751, 12.0f, 5.0f, 20, () -> Ingredient.ofItems(ModItems.ANCIENT_NETHERITE_INGOT));
 
     private final int miningLevel;
     private final int itemDurability;

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "dungeonmod:block/stripped_echo_log",
+    "side": "dungeonmod:block/stripped_echo_log"
+  }
+}

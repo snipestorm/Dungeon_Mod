@@ -1,0 +1,18 @@
+{
+  "type": "dungeonmod:artifact_transmuting",
+  "ingredients": [
+    {
+      "item": "dungeonmod:exotic_essence"
+    }
+  ],
+
+  "output": {
+    "item": "dungeonmod:dungeon_coin",
+    "count": 10
+  },
+
+  "output2": {
+    "item": "dungeonmod:skill",
+    "count": 5
+  }
+}

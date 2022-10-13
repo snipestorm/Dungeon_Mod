@@ -10,7 +10,7 @@
             "color": "gold"
         },
         "icon": {
-            "item": "minecraft:red_shulker_box"
+            "item": "dungeonmod:dungeon_champion_certificate"
         },
         "frame": "challenge",
         "show_toast": true,

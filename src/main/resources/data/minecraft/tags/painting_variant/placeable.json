@@ -2,6 +2,19 @@
   "values": [
     "dungeonmod:sam",
     "dungeonmod:ravager_run",
-    "dungeonmod:the_dungeon"
+    "dungeonmod:the_dungeon",
+    "dungeonmod:dungeon_master",
+    "dungeonmod:dungeon_explore",
+    "dungeonmod:warden",
+    "dungeonmod:rules",
+    "dungeonmod:dark",
+    "dungeonmod:harrison",
+    "dungeonmod:adam",
+    "dungeonmod:champ1",
+    "dungeonmod:champ2",
+    "dungeonmod:tree",
+    "dungeonmod:decked_out",
+    "dungeonmod:cards"
+
   ]
 }

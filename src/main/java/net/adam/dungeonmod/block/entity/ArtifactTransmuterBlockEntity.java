@@ -29,7 +29,7 @@ public class ArtifactTransmuterBlockEntity extends BlockEntity implements NamedS
 
     protected final PropertyDelegate propertyDelegate;
     private int progress = 0;
-    private int maxProgress = 75;
+    private int maxProgress = 300;
 
 
     public ArtifactTransmuterBlockEntity(BlockPos pos, BlockState state) {

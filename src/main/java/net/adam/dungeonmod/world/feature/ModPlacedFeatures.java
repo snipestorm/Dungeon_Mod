@@ -4,6 +4,7 @@ import net.minecraft.util.registry.RegistryEntry;
 import net.minecraft.world.gen.YOffset;
 import net.minecraft.world.gen.feature.PlacedFeature;
 import net.minecraft.world.gen.feature.PlacedFeatures;
+import net.minecraft.world.gen.feature.VegetationPlacedFeatures;
 import net.minecraft.world.gen.placementmodifier.*;
 
 import java.util.List;
@@ -12,6 +13,14 @@ public class ModPlacedFeatures {
     public static final RegistryEntry<PlacedFeature> CRYSTAL_ORE_PLACED = PlacedFeatures.register("crystal_ore_placed",
             ModConfiguredFeatures.CRYSTAL_ORE, modifiersWithCount(15,
                     HeightRangePlacementModifier.trapezoid(YOffset.aboveBottom(-80), YOffset.belowTop(20))));
+
+    public static final RegistryEntry<PlacedFeature> ECHO_PLACED = PlacedFeatures.register("echo_placed",
+            ModConfiguredFeatures.ECHO_SPAWN,
+            VegetationPlacedFeatures.modifiers(PlacedFeatures.createCountExtraModifier(1, 0.1f, 2)));
+
+    public static final RegistryEntry<PlacedFeature> ECHO_PLACED_2 = PlacedFeatures.register("echo_placed_2",
+            ModConfiguredFeatures.ECHO_SPAWN_2,
+            VegetationPlacedFeatures.modifiers(PlacedFeatures.createCountExtraModifier(1, 0.1f, 2)));
 
 
     private static List<PlacementModifier> modifiersWithRarity(int chance, PlacementModifier heightModifier) {

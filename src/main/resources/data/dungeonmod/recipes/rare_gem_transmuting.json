@@ -1,0 +1,18 @@
+{
+  "type": "dungeonmod:artifact_transmuting",
+  "ingredients": [
+    {
+      "item": "dungeonmod:rare_gem"
+    }
+  ],
+
+  "output": {
+    "item": "dungeonmod:dungeon_coin",
+    "count": 3
+  },
+
+  "output2": {
+    "item": "dungeonmod:skill",
+    "count": 1
+  }
+}

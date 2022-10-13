@@ -12,7 +12,7 @@ import java.util.function.Supplier;
 
 public enum ModArmorMaterials implements ArmorMaterial {
     ANCIENT_NETHERITE("ancient_netherite", 42, new int[]{5, 8, 10, 5}, 30,
-            SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, 5.0f, 0.3f, () -> Ingredient.ofItems(ModItems.ANCIENT_NETHERITE_INGOT)),
+            SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, 5.0f, 0.3f,() -> Ingredient.ofItems(ModItems.ANCIENT_NETHERITE_INGOT)),
 
     ANCIENT_DESCENT("ancient_descent", 35, new int[]{3, 6, 8, 3}, 13,
     SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 2.5f, 0.05f, () -> Ingredient.ofItems(Items.NETHERITE_INGOT));
