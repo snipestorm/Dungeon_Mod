@@ -1,18 +1,11 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "key": {
-    "#": {
-      "item": "minecraft:stick"
-    },
-    "X": {
-      "item": "dungeonmod:ancient_netherite_ingot"
-    }
+  "type": "minecraft:smithing",
+  "addition": {
+    "item": "dungeonmod:ancient_netherite_ingot"
   },
-  "pattern": [
-    "X",
-    "X",
-    "#"
-  ],
+  "base": {
+    "item": "minecraft:netherite_sword"
+  },
   "result": {
     "item": "dungeonmod:ancient_netherite_sword"
   }

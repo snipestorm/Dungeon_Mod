@@ -173,6 +173,7 @@
   "block.dungeonmod.echo_door": "Echo Door",
   "block.dungeonmod.echo_leaves": "Echo Leaves",
   "block.dungeonmod.echo_sapling": "Echo Sapling",
+  "block.dungeonmod.potted_echo_sapling": "Potted Echo Sapling",
   "block.dungeonmod.echo_trapdoor": "Echo Trapdoor",
   "block.dungeonmod.echo_stairs": "Echo Stairs",
   "block.dungeonmod.echo_slab": "Echo Slab",
@@ -182,6 +183,18 @@
   "block.dungeonmod.echo_pressure_plate": "Echo Pressure Plate",
   "block.dungeonmod.echo_button": "Echo Button",
   "block.dungeonmod.echo_sign": "Echo Sign",
+
+  "block.dungeonmod.door_tl": "Door Top Left",
+  "block.dungeonmod.door_tm": "Door Top Middle",
+  "block.dungeonmod.door_tr": "Door Top Right",
+  "block.dungeonmod.door_ml": "Door Middle Left",
+  "block.dungeonmod.door_m": "Door Middle",
+  "block.dungeonmod.door_mr": "Door Middle Right",
+  "block.dungeonmod.door_bl": "Door Bottom Left",
+  "block.dungeonmod.door_bm": "Door Bottom Middle",
+  "block.dungeonmod.door_br": "Door Bottom Right",
+
+  "block.dungeonmod.ancient_lamp": "Ancient Lamp",
 
 
   "enchantment.dungeonmod.dungeon_champion_season": "Dungeon Champion Season",

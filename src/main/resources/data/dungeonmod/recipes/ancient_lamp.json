@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "item": "minecraft:redstone_lamp"
+    },
+    "X": {
+      "item": "dungeonmod:ancient_tome"
+    }
+  },
+  "pattern": [
+    " # ",
+    "#X#",
+    " # "
+  ],
+  "result": {
+    "item": "dungeonmod:ancient_lamp"
+  }
+}

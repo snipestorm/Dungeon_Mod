@@ -134,6 +134,8 @@ public class ModItems {
             new ArmorItem(ModArmorMaterials.ANCIENT_DESCENT, EquipmentSlot.HEAD,
                     new FabricItemSettings().group(ModItemGroup.DUNGEON)));
 
+
+
     //*Artifacts*//
 
     //**Mythical**//

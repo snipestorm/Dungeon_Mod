@@ -1,20 +1,18 @@
 package net.adam.dungeonmod.block;
 
 import net.adam.dungeonmod.DungeonMod;
+import net.adam.dungeonmod.block.custom.AncientLampBlock;
 import net.adam.dungeonmod.block.custom.ArtifactTransmuterBlock;
-
 import net.adam.dungeonmod.block.entity.ModSignTypes;
 import net.adam.dungeonmod.item.ModItemGroup;
-
 import net.adam.dungeonmod.world.feature.tree.EchoSaplingGenerator;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.*;
-
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
-
+import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
@@ -28,7 +26,37 @@ public class ModBlocks {
     public static final Block CRYSTAL_ORE = registerBlock("crystal_ore",
     new OreBlock(FabricBlockSettings.of(Material.STONE).strength(4f).requiresTool()), ModItemGroup.DUNGEON);
     public static final Block DEEPSLATE_CRYSTAL_ORE = registerBlock("deepslate_crystal_ore",
-    new OreBlock(FabricBlockSettings.of(Material.STONE).strength(6f).requiresTool()), ModItemGroup.DUNGEON);
+    new OreBlock(FabricBlockSettings.of(Material.STONE).strength(6f).requiresTool().sounds(BlockSoundGroup.DEEPSLATE)), ModItemGroup.DUNGEON);
+
+    //**Door**//
+
+    public static final Block DOOR_TL = registerBlock("door_tl",
+            new Block(FabricBlockSettings.of(Material.METAL).strength(4f)), ModItemGroup.DUNGEON);
+
+    public static final Block DOOR_TM = registerBlock("door_tm",
+            new Block(FabricBlockSettings.of(Material.METAL).strength(4f)), ModItemGroup.DUNGEON);
+
+    public static final Block DOOR_TR = registerBlock("door_tr",
+            new Block(FabricBlockSettings.of(Material.METAL).strength(4f)), ModItemGroup.DUNGEON);
+
+    public static final Block DOOR_ML = registerBlock("door_ml",
+            new Block(FabricBlockSettings.of(Material.METAL).strength(4f)), ModItemGroup.DUNGEON);
+
+    public static final Block DOOR_M = registerBlock("door_m",
+            new Block(FabricBlockSettings.of(Material.METAL).strength(4f)), ModItemGroup.DUNGEON);
+
+    public static final Block DOOR_MR = registerBlock("door_mr",
+            new Block(FabricBlockSettings.of(Material.METAL).strength(4f)), ModItemGroup.DUNGEON);
+
+    public static final Block DOOR_BL = registerBlock("door_bl",
+            new Block(FabricBlockSettings.of(Material.METAL).strength(4f)), ModItemGroup.DUNGEON);
+
+    public static final Block DOOR_BM = registerBlock("door_bm",
+            new Block(FabricBlockSettings.of(Material.METAL).strength(4f)), ModItemGroup.DUNGEON);
+
+    public static final Block DOOR_BR = registerBlock("door_br",
+            new Block(FabricBlockSettings.of(Material.METAL).strength(4f)), ModItemGroup.DUNGEON);
+
 
     //**WOOD**//
 
@@ -52,6 +80,9 @@ public class ModBlocks {
 
     public static final Block ECHO_SAPLING = registerBlock("echo_sapling",
             new SaplingBlock(new EchoSaplingGenerator(),FabricBlockSettings.copy(Blocks.OAK_SAPLING).nonOpaque()), ModItemGroup.DUNGEON);
+
+    public static final Block POTTED_ECHO_SAPLING = registerBlockWithoutItem("potted_echo_sapling",
+            new FlowerPotBlock(ModBlocks.ECHO_SAPLING,FabricBlockSettings.copy(Blocks.POTTED_OAK_SAPLING).nonOpaque()));
 
     public static final Block ECHO_DOOR = registerBlock("echo_door",
             new DoorBlock(FabricBlockSettings.copy(Blocks.OAK_DOOR).strength(2f)), ModItemGroup.DUNGEON);
@@ -95,6 +126,11 @@ public class ModBlocks {
     public static final Block ARTIFACT_TRANSMUTER = registerBlock("artifact_transmuter",
             new ArtifactTransmuterBlock(FabricBlockSettings.of(Material.STONE)
                     .strength(6f).requiresTool().nonOpaque()), ModItemGroup.DUNGEON);
+
+
+    public static final Block ANCIENT_LAMP = registerBlock("ancient_lamp",
+            new AncientLampBlock(FabricBlockSettings.of(Material.REDSTONE_LAMP)
+                    .luminance(state -> state.get(AncientLampBlock.LIT) ? 10 : 0).strength(0.3F).sounds(BlockSoundGroup.GLASS)), ModItemGroup.DUNGEON);
 
 
 

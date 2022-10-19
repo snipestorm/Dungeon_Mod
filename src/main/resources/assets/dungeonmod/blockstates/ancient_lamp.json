@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "lit=false": { "model": "dungeonmod:block/ancient_lamp" },
+    "lit=true": { "model": "dungeonmod:block/ancient_lamp_on" }
+  }
+}

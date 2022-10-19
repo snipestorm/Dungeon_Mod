@@ -18,6 +18,8 @@ public enum ModArmorMaterials implements ArmorMaterial {
     SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 2.5f, 0.05f, () -> Ingredient.ofItems(Items.NETHERITE_INGOT));
 
 
+
+
     private static final int[] BASE_DURABILITY;
     private final String name;
     private final int durabilityMultiplier;

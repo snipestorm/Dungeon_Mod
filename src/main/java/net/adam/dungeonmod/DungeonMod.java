@@ -7,7 +7,6 @@ import net.adam.dungeonmod.item.ModItems;
 import net.adam.dungeonmod.painting.ModPaintings;
 import net.adam.dungeonmod.recipe.ModRecipes;
 import net.adam.dungeonmod.screen.ModScreenHandlers;
-import net.adam.dungeonmod.util.ModLootTableModifiers;
 import net.adam.dungeonmod.util.ModRegistries;
 import net.adam.dungeonmod.world.dimension.ModDimensions;
 import net.adam.dungeonmod.world.feature.ModConfiguredFeatures;
@@ -29,7 +28,6 @@ public class DungeonMod implements ModInitializer {
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 		ModWorldGen.generateWorldGen();
-		ModLootTableModifiers.modifyLootTables();
 		ModEnchantment.registerModEnchantment();
 		ModDimensions.register();
 		ModBlockEntities.registerBlockEntities();

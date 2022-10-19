@@ -8,7 +8,7 @@ import java.util.function.Supplier;
 
 public enum ModToolMaterials implements ToolMaterial {
 
-    ANCIENT_NETHERITE(5, 2751, 12.0f, 5.0f, 20, () -> Ingredient.ofItems(ModItems.ANCIENT_NETHERITE_INGOT));
+    ANCIENT_NETHERITE(5, 2751, 12.0f, 5.0f, 18, () -> Ingredient.ofItems(ModItems.ANCIENT_NETHERITE_INGOT));
 
     private final int miningLevel;
     private final int itemDurability;
