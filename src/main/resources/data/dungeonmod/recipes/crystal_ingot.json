@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+    ],
+  "key": {
+    "#": {
+      "item": "dungeonmod:crystal_nugget"
+    }
+  },
+  "result": {
+    "item": "dungeonmod:crystal_ingot"
+  }
+}

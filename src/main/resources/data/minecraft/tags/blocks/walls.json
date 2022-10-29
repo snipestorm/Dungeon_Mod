@@ -1,7 +1,11 @@
 {
   "replace": false,
   "values": [
-    "dungeonmod:echo_wall"
+    "dungeonmod:echo_wall",
+    "dungeonmod:sculk_stone_wall",
+    "dungeonmod:sculk_stone_brick_wall",
+    "dungeonmod:polished_sculk_stone_wall",
+    "dungeonmod:cobbled_sculk_stone_wall"
 
   ]
 }

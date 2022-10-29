@@ -18,6 +18,9 @@ public class ModItems {
 
     public static final Item CRYSTAL = registerItem("crystal",
             new Item(new FabricItemSettings().group(ModItemGroup.DUNGEON)));
+
+    public static final Item CRYSTAL_NUGGET = registerItem("crystal_nugget",
+            new Item(new FabricItemSettings().group(ModItemGroup.DUNGEON)));
     public static final Item ANCIENT_TOME = registerItem("ancient_tome",
             new Item(new FabricItemSettings().group(ModItemGroup.DUNGEON)));
 
@@ -33,6 +36,9 @@ public class ModItems {
             new Item(new FabricItemSettings().group(ModItemGroup.DUNGEON)));
 
     public static final Item MYTHICAL_LOOT_BOX_KEY = registerItem("mythical_loot_box_key",
+            new Item(new FabricItemSettings().group(ModItemGroup.DUNGEON)));
+
+    public static final Item CHAMPIONS_KEY = registerItem("champions_key",
             new Item(new FabricItemSettings().group(ModItemGroup.DUNGEON)));
     public static final Item ANCIENT_NETHERITE_INGOT = registerItem("ancient_netherite_ingot",
             new Item(new FabricItemSettings().group(ModItemGroup.DUNGEON).fireproof()));
@@ -331,6 +337,18 @@ public class ModItems {
 
     public static final Item EXOTIC_GEM = registerItem("exotic_gem",
             new GemArtifact(new FabricItemSettings().rarity(Rarity.UNCOMMON).group(ModItemGroup.DUNGEON_ARTIFACTS)));
+
+    //**Wildcards**//
+
+    public static final Item RARE_WILDCARD = registerItem("rare_wildcard",
+            new Wildcard(new FabricItemSettings().rarity(Rarity.RARE).group(ModItemGroup.DUNGEON_ARTIFACTS)));
+
+    public static final Item LEGENDARY_WILDCARD = registerItem("legendary_wildcard",
+            new Wildcard(new FabricItemSettings().rarity(Rarity.EPIC).group(ModItemGroup.DUNGEON_ARTIFACTS)));
+
+    public static final Item EXOTIC_WILDCARD = registerItem("exotic_wildcard",
+            new Wildcard(new FabricItemSettings().rarity(Rarity.UNCOMMON).group(ModItemGroup.DUNGEON_ARTIFACTS)));
+
 
 
     //**Cards**//

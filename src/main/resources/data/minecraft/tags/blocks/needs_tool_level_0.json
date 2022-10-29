@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "dungeonmod:sculk_stone_bricks",
+    "dungeonmod:sculk_stone_brick_slab",
+    "dungeonmod:sculk_stone_brick_wall",
+    "dungeonmod:sculk_stone_brick_stairs",
+    "dungeonmod:sculk_stone",
+    "dungeonmod:sculk_stone_slab",
+    "dungeonmod:sculk_stone_stairs",
+    "dungeonmod:sculk_stone_wall",
+    "dungeonmod:cobbled_sculk_stone",
+    "dungeonmod:cobbled_sculk_stone_stairs",
+    "dungeonmod:cobbled_sculk_stone_wall",
+    "dungeonmod:cobbled_sculk_stone_slab",
+    "dungeonmod:polished_sculk_stone",
+    "dungeonmod:polished_sculk_stone_stairs",
+    "dungeonmod:polished_sculk_stone_wall",
+    "dungeonmod:polished_sculk_stone_slab"
+  ]
+}

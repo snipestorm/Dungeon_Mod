@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "dungeonmod:sculk_stone"
+  },
+  "result": "dungeonmod:polished_sculk_stone_slab"
+}

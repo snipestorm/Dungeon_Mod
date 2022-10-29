@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "dungeonmod:block/red_lamp_off"
+
+  }
+}

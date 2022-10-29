@@ -19,14 +19,111 @@ import net.minecraft.util.registry.Registry;
 
 public class ModBlocks {
     public static final Block CRYSTAL_BLOCK = registerBlock("crystal_block",
-    new Block(FabricBlockSettings.of(Material.METAL).strength(4f).requiresTool()), ModItemGroup.DUNGEON);
+    new Block(FabricBlockSettings.of(Material.METAL).strength(4f,4f).requiresTool()), ModItemGroup.DUNGEON);
 
     public static final Block ANCIENT_NETHERITE_BLOCK = registerBlock("ancient_netherite_block",
-            new Block(FabricBlockSettings.of(Material.METAL).strength(8f).requiresTool()), ModItemGroup.DUNGEON);
+            new Block(FabricBlockSettings.of(Material.METAL).strength(4f,8f).requiresTool()), ModItemGroup.DUNGEON);
+
+    public static final Block SCULK_STONE = registerBlock("sculk_stone",
+            new Block(FabricBlockSettings.of(Material.STONE).strength(1.5f,6f).requiresTool().sounds(BlockSoundGroup.SCULK).requiresTool()), ModItemGroup.DUNGEON_SCULK);
+
+    public static final Block COBBLED_SCULK_STONE = registerBlock("cobbled_sculk_stone",
+            new Block(FabricBlockSettings.of(Material.STONE).strength(1.5f,6f).requiresTool().sounds(BlockSoundGroup.SCULK).requiresTool()), ModItemGroup.DUNGEON_SCULK);
+
+    public static final Block POLISHED_SCULK_STONE = registerBlock("polished_sculk_stone",
+            new Block(FabricBlockSettings.of(Material.STONE).strength(1.5f,6f).requiresTool().sounds(BlockSoundGroup.SCULK).requiresTool()), ModItemGroup.DUNGEON_SCULK);
+
+    public static final Block SCULK_STONE_BRICKS = registerBlock("sculk_stone_bricks",
+            new Block(FabricBlockSettings.of(Material.STONE).strength(1.5f,6f).requiresTool().sounds(BlockSoundGroup.SCULK).requiresTool()), ModItemGroup.DUNGEON_SCULK);
+
+    public static final Block INFESTED_SCULK = registerBlock("infested_sculk",
+            new Block(FabricBlockSettings.of(Material.STONE).strength(1.5f,6f).requiresTool().sounds(BlockSoundGroup.SCULK)), ModItemGroup.DUNGEON_SCULK);
+
+    public static final Block ECHO_SOIL = registerBlock("echo_soil",
+            new Block(FabricBlockSettings.of(Material.SOIL).strength(0.5f).sounds(BlockSoundGroup.SCULK)), ModItemGroup.DUNGEON);
+
+    public static final Block SCULK_GLEAM = registerBlock("sculk_gleam",
+            new Block(FabricBlockSettings.of(Material.GLASS).strength(0.3f).sounds(BlockSoundGroup.GLASS).luminance((state) -> 15)), ModItemGroup.DUNGEON);
+
+
+
+    public static final Block SCULK_STONE_STAIRS = registerBlock("sculk_stone_stairs",
+            new StairsBlock(ModBlocks.SCULK_STONE.getDefaultState(),
+                    FabricBlockSettings.copy(Blocks.STONE_BRICK_STAIRS).strength(1.5f,6f).requiresTool()), ModItemGroup.DUNGEON_SCULK);
+
+    public static final Block SCULK_STONE_SLAB = registerBlock("sculk_stone_slab",
+            new SlabBlock(FabricBlockSettings.copy(Blocks.STONE_BRICK_SLAB).strength(1.5f,6f).requiresTool()), ModItemGroup.DUNGEON_SCULK);
+
+    public static final Block SCULK_STONE_WALL= registerBlock("sculk_stone_wall",
+            new WallBlock(FabricBlockSettings.copy(Blocks.STONE_BRICK_WALL).strength(1.5f,6f).requiresTool()), ModItemGroup.DUNGEON_SCULK);
+
+    public static final Block SCULK_STONE_BRICK_STAIRS = registerBlock("sculk_stone_brick_stairs",
+            new StairsBlock(ModBlocks.SCULK_STONE_BRICKS.getDefaultState(),
+                    FabricBlockSettings.copy(Blocks.STONE_BRICK_STAIRS).strength(1.5f,6f).requiresTool()), ModItemGroup.DUNGEON_SCULK);
+
+    public static final Block SCULK_STONE_BRICK_SLAB = registerBlock("sculk_stone_brick_slab",
+            new SlabBlock(FabricBlockSettings.copy(Blocks.STONE_BRICK_SLAB).strength(1.5f,6f).requiresTool()), ModItemGroup.DUNGEON_SCULK);
+
+    public static final Block SCULK_STONE_BRICK_WALL= registerBlock("sculk_stone_brick_wall",
+            new WallBlock(FabricBlockSettings.copy(Blocks.STONE_BRICK_WALL).strength(1.5f,6f).requiresTool()), ModItemGroup.DUNGEON_SCULK);
+
+    public static final Block COBBLED_SCULK_STONE_STAIRS = registerBlock("cobbled_sculk_stone_stairs",
+            new StairsBlock(ModBlocks.COBBLED_SCULK_STONE.getDefaultState(),
+                    FabricBlockSettings.copy(Blocks.STONE_BRICK_STAIRS).strength(1.5f,6f).requiresTool()), ModItemGroup.DUNGEON_SCULK);
+
+    public static final Block COBBLED_SCULK_STONE_SLAB = registerBlock("cobbled_sculk_stone_slab",
+            new SlabBlock(FabricBlockSettings.copy(Blocks.STONE_BRICK_SLAB).strength(1.5f,6f).requiresTool()), ModItemGroup.DUNGEON_SCULK);
+
+    public static final Block COBBLED_SCULK_STONE_WALL= registerBlock("cobbled_sculk_stone_wall",
+            new WallBlock(FabricBlockSettings.copy(Blocks.STONE_BRICK_WALL).strength(1.5f,6f).requiresTool()), ModItemGroup.DUNGEON_SCULK);
+
+    public static final Block POLISHED_SCULK_STONE_STAIRS = registerBlock("polished_sculk_stone_stairs",
+            new StairsBlock(ModBlocks.POLISHED_SCULK_STONE.getDefaultState(),
+                    FabricBlockSettings.copy(Blocks.STONE_BRICK_STAIRS).strength(1.5f,6f).requiresTool()), ModItemGroup.DUNGEON_SCULK);
+
+    public static final Block POLISHED_SCULK_STONE_SLAB = registerBlock("polished_sculk_stone_slab",
+            new SlabBlock(FabricBlockSettings.copy(Blocks.STONE_BRICK_SLAB).strength(1.5f,6f).requiresTool()), ModItemGroup.DUNGEON_SCULK);
+
+    public static final Block POLISHED_SCULK_STONE_WALL= registerBlock("polished_sculk_stone_wall",
+            new WallBlock(FabricBlockSettings.copy(Blocks.STONE_BRICK_WALL).strength(1.5f,6f).requiresTool()), ModItemGroup.DUNGEON_SCULK);
+
+    //**ORES**//
+
     public static final Block CRYSTAL_ORE = registerBlock("crystal_ore",
-    new OreBlock(FabricBlockSettings.of(Material.STONE).strength(4f).requiresTool()), ModItemGroup.DUNGEON);
+            new OreBlock(FabricBlockSettings.of(Material.STONE).strength(3f,3f).requiresTool()), ModItemGroup.DUNGEON_ORES);
     public static final Block DEEPSLATE_CRYSTAL_ORE = registerBlock("deepslate_crystal_ore",
-    new OreBlock(FabricBlockSettings.of(Material.STONE).strength(6f).requiresTool().sounds(BlockSoundGroup.DEEPSLATE)), ModItemGroup.DUNGEON);
+            new OreBlock(FabricBlockSettings.of(Material.STONE).strength(4.5f,3f).requiresTool().sounds(BlockSoundGroup.DEEPSLATE)), ModItemGroup.DUNGEON_ORES);
+
+    public static final Block SCULK_STONE_CRYSTAL_ORE = registerBlock("sculk_stone_crystal_ore",
+            new OreBlock(FabricBlockSettings.of(Material.STONE).strength(1.5f,6f).requiresTool().sounds(BlockSoundGroup.SCULK)), ModItemGroup.DUNGEON_ORES);
+
+    public static final Block SCULK_STONE_COAL_ORE = registerBlock("sculk_stone_coal_ore",
+            new OreBlock(FabricBlockSettings.of(Material.STONE).strength(1.5f,6f).requiresTool().sounds(BlockSoundGroup.SCULK)), ModItemGroup.DUNGEON_ORES);
+
+    public static final Block SCULK_STONE_COPPER_ORE = registerBlock("sculk_stone_copper_ore",
+            new OreBlock(FabricBlockSettings.of(Material.STONE).strength(1.5f,6f).requiresTool().sounds(BlockSoundGroup.SCULK)), ModItemGroup.DUNGEON_ORES);
+
+    public static final Block SCULK_STONE_DIAMOND_ORE = registerBlock("sculk_stone_diamond_ore",
+            new OreBlock(FabricBlockSettings.of(Material.STONE).strength(1.5f,6f).requiresTool().sounds(BlockSoundGroup.SCULK)), ModItemGroup.DUNGEON_ORES);
+
+    public static final Block SCULK_STONE_EMERALD_ORE = registerBlock("sculk_stone_emerald_ore",
+            new OreBlock(FabricBlockSettings.of(Material.STONE).strength(1.5f,6f).requiresTool().sounds(BlockSoundGroup.SCULK)), ModItemGroup.DUNGEON_ORES);
+
+    public static final Block SCULK_STONE_GOLD_ORE = registerBlock("sculk_stone_gold_ore",
+            new OreBlock(FabricBlockSettings.of(Material.STONE).strength(1.5f,6f).requiresTool().sounds(BlockSoundGroup.SCULK)), ModItemGroup.DUNGEON_ORES);
+
+    public static final Block SCULK_STONE_IRON_ORE = registerBlock("sculk_stone_iron_ore",
+            new OreBlock(FabricBlockSettings.of(Material.STONE).strength(1.5f,6f).requiresTool().sounds(BlockSoundGroup.SCULK)), ModItemGroup.DUNGEON_ORES);
+
+    public static final Block SCULK_STONE_LAPIS_ORE = registerBlock("sculk_stone_lapis_ore",
+            new OreBlock(FabricBlockSettings.of(Material.STONE).strength(1.5f,6f).requiresTool().sounds(BlockSoundGroup.SCULK)), ModItemGroup.DUNGEON_ORES);
+
+    public static final Block SCULK_STONE_REDSTONE_ORE = registerBlock("sculk_stone_redstone_ore",
+            new OreBlock(FabricBlockSettings.of(Material.STONE).strength(1.5f,6f).requiresTool().sounds(BlockSoundGroup.SCULK)), ModItemGroup.DUNGEON_ORES);
+
+
+
+
 
     //**Door**//
 
@@ -131,6 +228,14 @@ public class ModBlocks {
     public static final Block ANCIENT_LAMP = registerBlock("ancient_lamp",
             new AncientLampBlock(FabricBlockSettings.of(Material.REDSTONE_LAMP)
                     .luminance(state -> state.get(AncientLampBlock.LIT) ? 10 : 0).strength(0.3F).sounds(BlockSoundGroup.GLASS)), ModItemGroup.DUNGEON);
+
+    public static final Block RED_LAMP = registerBlock("red_lamp",
+            new AncientLampBlock(FabricBlockSettings.of(Material.REDSTONE_LAMP)
+                    .luminance(state -> state.get(AncientLampBlock.LIT) ? 15 : 0).strength(0.3F).sounds(BlockSoundGroup.GLASS)), ModItemGroup.DUNGEON);
+
+    public static final Block BLUE_LAMP = registerBlock("blue_lamp",
+            new AncientLampBlock(FabricBlockSettings.of(Material.REDSTONE_LAMP)
+                    .luminance(state -> state.get(AncientLampBlock.LIT) ? 15 : 0).strength(0.3F).sounds(BlockSoundGroup.GLASS)), ModItemGroup.DUNGEON);
 
 
 

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "X": {
+      "item": "minecraft:redstone_lamp"
+    },
+    "#": {
+      "item": "minecraft:red_dye"
+    }
+  },
+  "pattern": [
+    " # ",
+    "#X#",
+    " # "
+  ],
+  "result": {
+    "item": "dungeonmod:red_lamp"
+  }
+}

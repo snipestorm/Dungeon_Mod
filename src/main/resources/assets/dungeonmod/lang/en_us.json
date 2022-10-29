@@ -4,10 +4,12 @@
   "item.dungeonmod.skill": "☠ Skill ☠",
   "item.dungeonmod.ancient_tome": "☠ Ancient Tome ☠",
   "item.dungeonmod.crystal": "Crystal",
+  "item.dungeonmod.crystal_nugget": "Crystal Nugget",
   "item.dungeonmod.crystal_ingot": "Crystal Ingot",
   "item.dungeonmod.loot_box_key": "☠ Loot Box Key ☠",
   "item.dungeonmod.legendary_loot_box_key": "☠ Legendary Loot Box Key ☠",
   "item.dungeonmod.mythical_loot_box_key": "☠ Mythical Loot Box Key ☠",
+  "item.dungeonmod.champions_key": "☠ Dungeon Champions Key ☠",
   "item.dungeonmod.dungeon_champion_certificate": "☠ Season III Champions Certificate ☠",
 
   "item.dungeonmod.void_compass": "Void Compass",
@@ -92,6 +94,11 @@
   "item.dungeonmod.legendary_gem": "☠ Legendary Artifact: Infused Cut Diamond ☠",
   "item.dungeonmod.exotic_gem": "☠ Exotic Artifact: Infused Cut Black Diamond ☠",
 
+  "item.dungeonmod.rare_wildcard": "☠ Rare Wildcard ☠",
+  "item.dungeonmod.legendary_wildcard": "☠ Legendary Wildcard ☠",
+  "item.dungeonmod.exotic_wildcard": "☠ Exotic Wildcard ☠",
+
+
   "item.dungeonmod.stealth_1": "☠ Stealth I ☠",
   "item.dungeonmod.stealth_2": "☠ Stealth II ☠",
   "item.dungeonmod.stealth_3": "☠ Stealth III ☠",
@@ -160,8 +167,39 @@
 
 
   "block.dungeonmod.crystal_block": "Crystal Block",
+
   "block.dungeonmod.crystal_ore": "Crystal Ore",
   "block.dungeonmod.deepslate_crystal_ore": "Deepslate Crystal Ore",
+  "block.dungeonmod.sculk_stone_coal_ore": "Sculk Stone Coal Ore",
+  "block.dungeonmod.sculk_stone_copper_ore": "Sculk Stone Copper Ore",
+  "block.dungeonmod.sculk_stone_crystal_ore": "Sculk Stone Crystal Ore",
+  "block.dungeonmod.sculk_stone_diamond_ore": "Sculk Stone Diamond Ore",
+  "block.dungeonmod.sculk_stone_emerald_ore": "Sculk Stone Emerald Ore",
+  "block.dungeonmod.sculk_stone_gold_ore": "Sculk Stone Gold Ore",
+  "block.dungeonmod.sculk_stone_iron_ore": "Sculk Stone Iron Ore",
+  "block.dungeonmod.sculk_stone_lapis_ore": "Sculk Stone Lapis Ore",
+  "block.dungeonmod.sculk_stone_redstone_ore": "Sculk Stone Redstone Ore",
+
+  "block.dungeonmod.cobbled_sculk_stone": "Cobbled Sculk Stone",
+  "block.dungeonmod.cobbled_sculk_stone_stairs": "Cobbled Sculk Stone Stairs",
+  "block.dungeonmod.cobbled_sculk_stone_slab": "Cobbled Sculk Stone Slab",
+  "block.dungeonmod.cobbled_sculk_stone_wall": "Cobbled Sculk Stone Wall",
+  "block.dungeonmod.echo_soil": "Echo Soil",
+  "block.dungeonmod.infested_sculk": "Infested Sculk",
+  "block.dungeonmod.polished_sculk_stone": "Polished Sculk Stone",
+  "block.dungeonmod.polished_sculk_stone_stairs": "Polished Sculk Stone Stairs",
+  "block.dungeonmod.polished_sculk_stone_slab": "Polished Sculk Stone Slab",
+  "block.dungeonmod.polished_sculk_stone_wall": "Polished Sculk Stone Wall",
+  "block.dungeonmod.sculk_gleam": "Sculk Gleam",
+  "block.dungeonmod.sculk_stone": "Sculk Stone",
+  "block.dungeonmod.sculk_stone_stairs": "Sculk Stone Stairs",
+  "block.dungeonmod.sculk_stone_slab": "Sculk Stone Slab",
+  "block.dungeonmod.sculk_stone_wall": "Sculk Stone Wall",
+  "block.dungeonmod.sculk_stone_bricks": "Sculk Stone Bricks",
+  "block.dungeonmod.sculk_stone_brick_stairs": "Sculk Stone Brick Stairs",
+  "block.dungeonmod.sculk_stone_brick_slab": "Sculk Stone Brick Slab",
+  "block.dungeonmod.sculk_stone_brick_wall": "Sculk Stone Brick Wall",
+
   "block.dungeonmod.ritual_fire": "Ritual Fire",
   "block.dungeonmod.artifact_transmuter": "☠ Artifact Transmuter ☠",
 
@@ -195,6 +233,8 @@
   "block.dungeonmod.door_br": "Door Bottom Right",
 
   "block.dungeonmod.ancient_lamp": "Ancient Lamp",
+  "block.dungeonmod.red_lamp": "Blood Redstone Lamp",
+  "block.dungeonmod.blue_lamp": "Soul Redstone Lamp",
 
 
   "enchantment.dungeonmod.dungeon_champion_season": "Dungeon Champion Season",
@@ -202,5 +242,7 @@
   "itemGroup.dungeonmod.dungeon": "☠ Dungeon ☠",
   "itemGroup.dungeonmod.dungeon_cards": "☠ Dungeon Cards ☠",
   "itemGroup.dungeonmod.dungeon_artifacts": "☠ Dungeon Artifacts ☠",
-  "itemGroup.dungeonmod.dungeon_advancements": "☠ Dungeon Advancements ☠"
+  "itemGroup.dungeonmod.dungeon_advancements": "☠ Dungeon Advancements ☠",
+  "itemGroup.dungeonmod.dungeon_sculk": "☠ Dungeon Sculk ☠",
+  "itemGroup.dungeonmod.dungeon_ores": "☠ Dungeon Ores ☠"
 }

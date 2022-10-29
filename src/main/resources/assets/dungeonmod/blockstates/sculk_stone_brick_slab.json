@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "dungeonmod:block/sculk_stone_brick_slab"
+    },
+    "type=double": {
+      "model": "dungeonmod:block/sculk_stone_bricks"
+    },
+    "type=top": {
+      "model": "dungeonmod:block/sculk_stone_brick_slab_top"
+    }
+  }
+}

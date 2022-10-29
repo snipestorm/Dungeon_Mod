@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "dungeonmod:crystal_ingot"
+    }
+    ],
+  "result": {
+    "item": "dungeonmod:crystal_nugget",
+    "count": 9
+  }
+}

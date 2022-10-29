@@ -148,6 +148,22 @@
           "type": "minecraft:item",
           "name": "minecraft:experience_bottle",
           "weight": 8
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 5.0,
+                "min": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "dungeonmod:crystal_nugget",
+          "weight": 10
         }
       ],
       "rolls": {
